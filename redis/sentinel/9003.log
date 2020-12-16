@@ -1,0 +1,126 @@
+24899:C 17 Dec 2020 01:10:18.801 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+24899:C 17 Dec 2020 01:10:18.801 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=24899, just started
+24899:C 17 Dec 2020 01:10:18.801 # Configuration loaded
+24903:S 17 Dec 2020 01:10:18.806 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+24903:S 17 Dec 2020 01:10:18.807 * Running mode=standalone, port=9003.
+24903:S 17 Dec 2020 01:10:18.807 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+24903:S 17 Dec 2020 01:10:18.807 # Server initialized
+24903:S 17 Dec 2020 01:10:18.807 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+24903:S 17 Dec 2020 01:10:18.807 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+24903:S 17 Dec 2020 01:10:18.808 * Ready to accept connections
+24903:S 17 Dec 2020 01:10:18.808 * Connecting to MASTER 172.16.0.17:9001
+24903:S 17 Dec 2020 01:10:18.808 * MASTER <-> REPLICA sync started
+24903:S 17 Dec 2020 01:10:18.808 # Error condition on socket for SYNC: Operation now in progress
+24903:S 17 Dec 2020 01:10:19.810 * Connecting to MASTER 172.16.0.17:9001
+24903:S 17 Dec 2020 01:10:19.810 * MASTER <-> REPLICA sync started
+24903:S 17 Dec 2020 01:10:19.810 * Non blocking connect for SYNC fired the event.
+24903:S 17 Dec 2020 01:10:19.810 * Master replied to PING, replication can continue...
+24903:S 17 Dec 2020 01:10:19.810 * Partial resynchronization not possible (no cached master)
+24903:S 17 Dec 2020 01:10:19.811 * Full resync from master: 806c4cf5b9dd04d98e617ef8cdba75c4dcaffc7e:0
+24903:S 17 Dec 2020 01:10:19.913 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+24903:S 17 Dec 2020 01:10:19.913 * MASTER <-> REPLICA sync: Flushing old data
+24903:S 17 Dec 2020 01:10:19.913 * MASTER <-> REPLICA sync: Loading DB in memory
+24903:S 17 Dec 2020 01:10:19.913 * Loading RDB produced by version 6.0.3
+24903:S 17 Dec 2020 01:10:19.913 * RDB age 0 seconds
+24903:S 17 Dec 2020 01:10:19.913 * RDB memory usage when created 1.83 Mb
+24903:S 17 Dec 2020 01:10:19.913 * MASTER <-> REPLICA sync: Finished with success
+25296:C 17 Dec 2020 01:12:40.052 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25296:C 17 Dec 2020 01:12:40.052 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25296, just started
+25296:C 17 Dec 2020 01:12:40.052 # Configuration loaded
+25302:S 17 Dec 2020 01:12:40.057 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25302:S 17 Dec 2020 01:12:40.057 # Could not create server TCP listening socket 0.0.0.0:9003: bind: Address already in use
+25453:C 17 Dec 2020 01:13:35.516 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25453:C 17 Dec 2020 01:13:35.516 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25453, just started
+25453:C 17 Dec 2020 01:13:35.516 # Configuration loaded
+25457:S 17 Dec 2020 01:13:35.521 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25457:S 17 Dec 2020 01:13:35.521 # Could not create server TCP listening socket 0.0.0.0:9003: bind: Address already in use
+25595:C 17 Dec 2020 01:14:19.067 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25595:C 17 Dec 2020 01:14:19.067 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25595, just started
+25595:C 17 Dec 2020 01:14:19.067 # Configuration loaded
+25599:S 17 Dec 2020 01:14:19.072 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25599:S 17 Dec 2020 01:14:19.074 * Running mode=standalone, port=9003.
+25599:S 17 Dec 2020 01:14:19.074 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+25599:S 17 Dec 2020 01:14:19.074 # Server initialized
+25599:S 17 Dec 2020 01:14:19.074 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+25599:S 17 Dec 2020 01:14:19.074 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+25599:S 17 Dec 2020 01:14:19.075 * Loading RDB produced by version 6.0.3
+25599:S 17 Dec 2020 01:14:19.075 * RDB age 240 seconds
+25599:S 17 Dec 2020 01:14:19.075 * RDB memory usage when created 1.83 Mb
+25599:S 17 Dec 2020 01:14:19.075 * DB loaded from disk: 0.000 seconds
+25599:S 17 Dec 2020 01:14:19.075 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+25599:S 17 Dec 2020 01:14:19.075 * Ready to accept connections
+25599:S 17 Dec 2020 01:14:19.075 * Connecting to MASTER 172.16.0.17:9001
+25599:S 17 Dec 2020 01:14:19.075 * MASTER <-> REPLICA sync started
+25599:S 17 Dec 2020 01:14:19.075 * Non blocking connect for SYNC fired the event.
+25599:S 17 Dec 2020 01:14:19.076 * Master replied to PING, replication can continue...
+25599:S 17 Dec 2020 01:14:19.076 * Trying a partial resynchronization (request 806c4cf5b9dd04d98e617ef8cdba75c4dcaffc7e:1).
+25599:S 17 Dec 2020 01:14:19.076 * Full resync from master: 0fdf6fad6f63d0fc8988441e51b57168281805a5:0
+25599:S 17 Dec 2020 01:14:19.076 * Discarding previously cached master state.
+25599:S 17 Dec 2020 01:14:19.177 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+25599:S 17 Dec 2020 01:14:19.177 * MASTER <-> REPLICA sync: Flushing old data
+25599:S 17 Dec 2020 01:14:19.177 * MASTER <-> REPLICA sync: Loading DB in memory
+25599:S 17 Dec 2020 01:14:19.177 * Loading RDB produced by version 6.0.3
+25599:S 17 Dec 2020 01:14:19.177 * RDB age 0 seconds
+25599:S 17 Dec 2020 01:14:19.177 * RDB memory usage when created 1.83 Mb
+25599:S 17 Dec 2020 01:14:19.177 * MASTER <-> REPLICA sync: Finished with success
+26171:C 17 Dec 2020 01:17:15.076 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26171:C 17 Dec 2020 01:17:15.076 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26171, just started
+26171:C 17 Dec 2020 01:17:15.076 # Configuration loaded
+26175:S 17 Dec 2020 01:17:15.081 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+26175:S 17 Dec 2020 01:17:15.081 * Running mode=standalone, port=9003.
+26175:S 17 Dec 2020 01:17:15.081 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+26175:S 17 Dec 2020 01:17:15.081 # Server initialized
+26175:S 17 Dec 2020 01:17:15.081 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+26175:S 17 Dec 2020 01:17:15.081 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+26175:S 17 Dec 2020 01:17:15.084 * Loading RDB produced by version 6.0.3
+26175:S 17 Dec 2020 01:17:15.084 * RDB age 176 seconds
+26175:S 17 Dec 2020 01:17:15.085 * RDB memory usage when created 1.83 Mb
+26175:S 17 Dec 2020 01:17:15.085 * DB loaded from disk: 0.000 seconds
+26175:S 17 Dec 2020 01:17:15.086 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+26175:S 17 Dec 2020 01:17:15.086 * Ready to accept connections
+26175:S 17 Dec 2020 01:17:15.086 * Connecting to MASTER 172.16.0.17:9001
+26175:S 17 Dec 2020 01:17:15.086 * MASTER <-> REPLICA sync started
+26175:S 17 Dec 2020 01:17:15.086 * Non blocking connect for SYNC fired the event.
+26175:S 17 Dec 2020 01:17:15.086 * Master replied to PING, replication can continue...
+26175:S 17 Dec 2020 01:17:15.087 * Trying a partial resynchronization (request 0fdf6fad6f63d0fc8988441e51b57168281805a5:1).
+26175:S 17 Dec 2020 01:17:15.087 * Full resync from master: 971253b067106a56e1553d0742fcc4984477fc86:0
+26175:S 17 Dec 2020 01:17:15.087 * Discarding previously cached master state.
+26175:S 17 Dec 2020 01:17:15.187 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+26175:S 17 Dec 2020 01:17:15.187 * MASTER <-> REPLICA sync: Flushing old data
+26175:S 17 Dec 2020 01:17:15.187 * MASTER <-> REPLICA sync: Loading DB in memory
+26175:S 17 Dec 2020 01:17:15.187 * Loading RDB produced by version 6.0.3
+26175:S 17 Dec 2020 01:17:15.187 * RDB age 0 seconds
+26175:S 17 Dec 2020 01:17:15.187 * RDB memory usage when created 1.83 Mb
+26175:S 17 Dec 2020 01:17:15.187 * MASTER <-> REPLICA sync: Finished with success
+26882:C 17 Dec 2020 01:21:13.969 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26882:C 17 Dec 2020 01:21:13.969 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26882, just started
+26882:C 17 Dec 2020 01:21:13.969 # Configuration loaded
+26886:S 17 Dec 2020 01:21:13.980 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+26886:S 17 Dec 2020 01:21:13.980 * Running mode=standalone, port=9003.
+26886:S 17 Dec 2020 01:21:13.980 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+26886:S 17 Dec 2020 01:21:13.980 # Server initialized
+26886:S 17 Dec 2020 01:21:13.980 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+26886:S 17 Dec 2020 01:21:13.981 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+26886:S 17 Dec 2020 01:21:13.985 * Loading RDB produced by version 6.0.3
+26886:S 17 Dec 2020 01:21:13.985 * RDB age 238 seconds
+26886:S 17 Dec 2020 01:21:13.985 * RDB memory usage when created 1.83 Mb
+26886:S 17 Dec 2020 01:21:13.985 * DB loaded from disk: 0.000 seconds
+26886:S 17 Dec 2020 01:21:13.985 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+26886:S 17 Dec 2020 01:21:13.985 * Ready to accept connections
+26886:S 17 Dec 2020 01:21:13.985 * Connecting to MASTER 172.16.0.17:9001
+26886:S 17 Dec 2020 01:21:13.985 * MASTER <-> REPLICA sync started
+26886:S 17 Dec 2020 01:21:13.985 # Error condition on socket for SYNC: Operation now in progress
+26886:S 17 Dec 2020 01:21:14.986 * Connecting to MASTER 172.16.0.17:9001
+26886:S 17 Dec 2020 01:21:14.987 * MASTER <-> REPLICA sync started
+26886:S 17 Dec 2020 01:21:14.987 * Non blocking connect for SYNC fired the event.
+26886:S 17 Dec 2020 01:21:14.987 * Master replied to PING, replication can continue...
+26886:S 17 Dec 2020 01:21:14.987 * Trying a partial resynchronization (request 971253b067106a56e1553d0742fcc4984477fc86:1).
+26886:S 17 Dec 2020 01:21:14.987 * Full resync from master: 3b86161706aa6e2dabbb636474df13c94a42a4fd:0
+26886:S 17 Dec 2020 01:21:14.987 * Discarding previously cached master state.
+26886:S 17 Dec 2020 01:21:15.094 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+26886:S 17 Dec 2020 01:21:15.094 * MASTER <-> REPLICA sync: Flushing old data
+26886:S 17 Dec 2020 01:21:15.094 * MASTER <-> REPLICA sync: Loading DB in memory
+26886:S 17 Dec 2020 01:21:15.094 * Loading RDB produced by version 6.0.3
+26886:S 17 Dec 2020 01:21:15.094 * RDB age 1 seconds
+26886:S 17 Dec 2020 01:21:15.094 * RDB memory usage when created 1.89 Mb
+26886:S 17 Dec 2020 01:21:15.094 * MASTER <-> REPLICA sync: Finished with success

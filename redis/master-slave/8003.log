@@ -11818,3 +11818,11 @@
 14521:S 17 Dec 2020 00:08:22.954 * RDB age 0 seconds
 14521:S 17 Dec 2020 00:08:22.954 * RDB memory usage when created 1.82 Mb
 14521:S 17 Dec 2020 00:08:22.954 * MASTER <-> REPLICA sync: Finished with success
+14521:S 17 Dec 2020 00:23:23.007 * 1 changes in 900 seconds. Saving...
+14521:S 17 Dec 2020 00:23:23.008 * Background saving started by pid 17346
+17346:C 17 Dec 2020 00:23:23.015 * DB saved on disk
+17346:C 17 Dec 2020 00:23:23.016 * RDB: 0 MB of memory used by copy-on-write
+14521:S 17 Dec 2020 00:23:23.108 * Background saving terminated with success
+14521:S 17 Dec 2020 01:14:11.983 # Connection with master lost.
+14521:S 17 Dec 2020 01:14:11.983 * Caching the disconnected master state.
+14521:S 17 Dec 2020 01:14:11.983 * Using the meaningful offset 69 instead of 5571 to exclude the final PINGs (5502 bytes difference)

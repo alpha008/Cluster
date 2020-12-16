@@ -239,3 +239,10 @@
 14519:M 17 Dec 2020 00:08:22.953 * Background saving terminated with success
 14519:M 17 Dec 2020 00:08:22.954 * Synchronization with replica 172.16.0.17:8002 succeeded
 14519:M 17 Dec 2020 00:08:22.954 * Synchronization with replica 172.16.0.17:8003 succeeded
+14519:M 17 Dec 2020 00:23:23.007 * 1 changes in 900 seconds. Saving...
+14519:M 17 Dec 2020 00:23:23.008 * Background saving started by pid 17344
+17344:C 17 Dec 2020 00:23:23.016 * DB saved on disk
+17344:C 17 Dec 2020 00:23:23.016 * RDB: 0 MB of memory used by copy-on-write
+14519:M 17 Dec 2020 00:23:23.108 * Background saving terminated with success
+14519:M 17 Dec 2020 00:33:06.580 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+14519:M 17 Dec 2020 01:11:33.329 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.

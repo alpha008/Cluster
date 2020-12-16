@@ -1,0 +1,105 @@
+24897:C 17 Dec 2020 01:10:18.807 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+24897:C 17 Dec 2020 01:10:18.807 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=24897, just started
+24897:C 17 Dec 2020 01:10:18.807 # Configuration loaded
+24905:M 17 Dec 2020 01:10:18.810 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+24905:M 17 Dec 2020 01:10:18.810 * Running mode=standalone, port=9001.
+24905:M 17 Dec 2020 01:10:18.810 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+24905:M 17 Dec 2020 01:10:18.810 # Server initialized
+24905:M 17 Dec 2020 01:10:18.810 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+24905:M 17 Dec 2020 01:10:18.810 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+24905:M 17 Dec 2020 01:10:18.811 * Ready to accept connections
+24905:M 17 Dec 2020 01:10:19.810 * Replica 172.16.0.17:9003 asks for synchronization
+24905:M 17 Dec 2020 01:10:19.810 * Full resync requested by replica 172.16.0.17:9003
+24905:M 17 Dec 2020 01:10:19.810 * Starting BGSAVE for SYNC with target: disk
+24905:M 17 Dec 2020 01:10:19.811 * Background saving started by pid 24914
+24914:C 17 Dec 2020 01:10:19.816 * DB saved on disk
+24914:C 17 Dec 2020 01:10:19.817 * RDB: 0 MB of memory used by copy-on-write
+24905:M 17 Dec 2020 01:10:19.913 * Background saving terminated with success
+24905:M 17 Dec 2020 01:10:19.913 * Synchronization with replica 172.16.0.17:9003 succeeded
+25294:C 17 Dec 2020 01:12:40.050 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25294:C 17 Dec 2020 01:12:40.050 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25294, just started
+25294:C 17 Dec 2020 01:12:40.050 # Configuration loaded
+25301:M 17 Dec 2020 01:12:40.060 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25301:M 17 Dec 2020 01:12:40.060 # Could not create server TCP listening socket 0.0.0.0:9001: bind: Address already in use
+25451:C 17 Dec 2020 01:13:35.521 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25451:C 17 Dec 2020 01:13:35.521 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25451, just started
+25451:C 17 Dec 2020 01:13:35.521 # Configuration loaded
+25459:M 17 Dec 2020 01:13:35.524 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25459:M 17 Dec 2020 01:13:35.524 # Could not create server TCP listening socket 0.0.0.0:9001: bind: Address already in use
+24905:M 17 Dec 2020 01:14:11.985 # Connection with replica 172.16.0.17:9003 lost.
+25593:C 17 Dec 2020 01:14:19.073 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25593:C 17 Dec 2020 01:14:19.073 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25593, just started
+25593:C 17 Dec 2020 01:14:19.073 # Configuration loaded
+25613:M 17 Dec 2020 01:14:19.075 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25613:M 17 Dec 2020 01:14:19.076 * Running mode=standalone, port=9001.
+25613:M 17 Dec 2020 01:14:19.076 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+25613:M 17 Dec 2020 01:14:19.076 # Server initialized
+25613:M 17 Dec 2020 01:14:19.076 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+25613:M 17 Dec 2020 01:14:19.076 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+25613:M 17 Dec 2020 01:14:19.076 * Loading RDB produced by version 6.0.3
+25613:M 17 Dec 2020 01:14:19.076 * RDB age 240 seconds
+25613:M 17 Dec 2020 01:14:19.076 * RDB memory usage when created 1.83 Mb
+25613:M 17 Dec 2020 01:14:19.076 * DB loaded from disk: 0.000 seconds
+25613:M 17 Dec 2020 01:14:19.076 * Ready to accept connections
+25613:M 17 Dec 2020 01:14:19.076 * Replica 172.16.0.17:9003 asks for synchronization
+25613:M 17 Dec 2020 01:14:19.076 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '806c4cf5b9dd04d98e617ef8cdba75c4dcaffc7e', my replication IDs are '837bd44aa7ee4e6be4d5ab29dbcd33b852cc5e3b' and '0000000000000000000000000000000000000000')
+25613:M 17 Dec 2020 01:14:19.076 * Starting BGSAVE for SYNC with target: disk
+25613:M 17 Dec 2020 01:14:19.076 * Background saving started by pid 25622
+25622:C 17 Dec 2020 01:14:19.080 * DB saved on disk
+25622:C 17 Dec 2020 01:14:19.081 * RDB: 0 MB of memory used by copy-on-write
+25613:M 17 Dec 2020 01:14:19.176 * Background saving terminated with success
+25613:M 17 Dec 2020 01:14:19.177 * Synchronization with replica 172.16.0.17:9003 succeeded
+25613:M 17 Dec 2020 01:16:36.898 # Connection with replica 172.16.0.17:9003 lost.
+26169:C 17 Dec 2020 01:17:15.083 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26169:C 17 Dec 2020 01:17:15.083 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26169, just started
+26169:C 17 Dec 2020 01:17:15.083 # Configuration loaded
+26190:M 17 Dec 2020 01:17:15.085 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+26190:M 17 Dec 2020 01:17:15.085 * Running mode=standalone, port=9001.
+26190:M 17 Dec 2020 01:17:15.085 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+26190:M 17 Dec 2020 01:17:15.085 # Server initialized
+26190:M 17 Dec 2020 01:17:15.085 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+26190:M 17 Dec 2020 01:17:15.085 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+26190:M 17 Dec 2020 01:17:15.086 * Loading RDB produced by version 6.0.3
+26190:M 17 Dec 2020 01:17:15.086 * RDB age 176 seconds
+26190:M 17 Dec 2020 01:17:15.086 * RDB memory usage when created 1.83 Mb
+26190:M 17 Dec 2020 01:17:15.086 * DB loaded from disk: 0.000 seconds
+26190:M 17 Dec 2020 01:17:15.086 * Ready to accept connections
+26190:M 17 Dec 2020 01:17:15.087 * Replica 172.16.0.17:9003 asks for synchronization
+26190:M 17 Dec 2020 01:17:15.087 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '0fdf6fad6f63d0fc8988441e51b57168281805a5', my replication IDs are '13b7afa903c0a6815787cf3906c9a6d70147dc3f' and '0000000000000000000000000000000000000000')
+26190:M 17 Dec 2020 01:17:15.087 * Starting BGSAVE for SYNC with target: disk
+26190:M 17 Dec 2020 01:17:15.087 * Background saving started by pid 26198
+26198:C 17 Dec 2020 01:17:15.091 * DB saved on disk
+26198:C 17 Dec 2020 01:17:15.092 * RDB: 0 MB of memory used by copy-on-write
+26190:M 17 Dec 2020 01:17:15.186 * Background saving terminated with success
+26190:M 17 Dec 2020 01:17:15.187 * Synchronization with replica 172.16.0.17:9003 succeeded
+26190:M 17 Dec 2020 01:17:32.713 # Connection with replica 172.16.0.17:9003 lost.
+26880:C 17 Dec 2020 01:21:13.980 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26880:C 17 Dec 2020 01:21:13.980 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26880, just started
+26880:C 17 Dec 2020 01:21:13.980 # Configuration loaded
+26889:M 17 Dec 2020 01:21:13.987 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+26889:M 17 Dec 2020 01:21:13.988 * Running mode=standalone, port=9001.
+26889:M 17 Dec 2020 01:21:13.988 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+26889:M 17 Dec 2020 01:21:13.988 # Server initialized
+26889:M 17 Dec 2020 01:21:13.988 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+26889:M 17 Dec 2020 01:21:13.988 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+26889:M 17 Dec 2020 01:21:13.991 * Loading RDB produced by version 6.0.3
+26889:M 17 Dec 2020 01:21:13.991 * RDB age 238 seconds
+26889:M 17 Dec 2020 01:21:13.991 * RDB memory usage when created 1.83 Mb
+26889:M 17 Dec 2020 01:21:13.991 * DB loaded from disk: 0.000 seconds
+26889:M 17 Dec 2020 01:21:13.991 * Ready to accept connections
+26889:M 17 Dec 2020 01:21:13.991 * Replica 172.16.0.17:9002 asks for synchronization
+26889:M 17 Dec 2020 01:21:13.991 * Full resync requested by replica 172.16.0.17:9002
+26889:M 17 Dec 2020 01:21:13.991 * Starting BGSAVE for SYNC with target: disk
+26889:M 17 Dec 2020 01:21:13.991 * Background saving started by pid 26913
+26913:C 17 Dec 2020 01:21:13.995 * DB saved on disk
+26913:C 17 Dec 2020 01:21:13.995 * RDB: 0 MB of memory used by copy-on-write
+26889:M 17 Dec 2020 01:21:14.091 * Background saving terminated with success
+26889:M 17 Dec 2020 01:21:14.092 * Synchronization with replica 172.16.0.17:9002 succeeded
+26889:M 17 Dec 2020 01:21:14.987 * Replica 172.16.0.17:9003 asks for synchronization
+26889:M 17 Dec 2020 01:21:14.987 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '971253b067106a56e1553d0742fcc4984477fc86', my replication IDs are '3b86161706aa6e2dabbb636474df13c94a42a4fd' and '0000000000000000000000000000000000000000')
+26889:M 17 Dec 2020 01:21:14.987 * Starting BGSAVE for SYNC with target: disk
+26889:M 17 Dec 2020 01:21:14.987 * Background saving started by pid 26914
+26914:C 17 Dec 2020 01:21:14.993 * DB saved on disk
+26914:C 17 Dec 2020 01:21:14.994 * RDB: 0 MB of memory used by copy-on-write
+26889:M 17 Dec 2020 01:21:15.093 * Background saving terminated with success
+26889:M 17 Dec 2020 01:21:15.094 * Synchronization with replica 172.16.0.17:9003 succeeded

@@ -22,3 +22,4 @@ cp /home/alpha/share/redis-6.0.3/redis-6.0.3/redis.conf /home/ubuntu/Cluster/red
 #slaveof 182.254.181.144 8001
 
 
+

@@ -1,0 +1,73 @@
+24898:C 17 Dec 2020 01:10:18.807 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+24898:C 17 Dec 2020 01:10:18.807 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=24898, just started
+24898:C 17 Dec 2020 01:10:18.807 # Configuration loaded
+24904:S 17 Dec 2020 01:10:18.809 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+24904:S 17 Dec 2020 01:10:18.811 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+25295:C 17 Dec 2020 01:12:40.046 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25295:C 17 Dec 2020 01:12:40.046 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25295, just started
+25295:C 17 Dec 2020 01:12:40.046 # Configuration loaded
+25300:S 17 Dec 2020 01:12:40.053 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25300:S 17 Dec 2020 01:12:40.054 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+25452:C 17 Dec 2020 01:13:35.520 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25452:C 17 Dec 2020 01:13:35.520 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25452, just started
+25452:C 17 Dec 2020 01:13:35.520 # Configuration loaded
+25458:S 17 Dec 2020 01:13:35.525 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25458:S 17 Dec 2020 01:13:35.525 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+25594:C 17 Dec 2020 01:14:19.068 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25594:C 17 Dec 2020 01:14:19.068 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25594, just started
+25594:C 17 Dec 2020 01:14:19.068 # Configuration loaded
+25600:S 17 Dec 2020 01:14:19.073 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25600:S 17 Dec 2020 01:14:19.073 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+25843:C 17 Dec 2020 01:15:41.437 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25843:C 17 Dec 2020 01:15:41.437 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25843, just started
+25843:C 17 Dec 2020 01:15:41.437 # Configuration loaded
+25844:S 17 Dec 2020 01:15:41.438 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25844:S 17 Dec 2020 01:15:41.438 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+25846:C 17 Dec 2020 01:15:43.594 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25846:C 17 Dec 2020 01:15:43.594 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=25846, just started
+25846:C 17 Dec 2020 01:15:43.594 # Configuration loaded
+25847:S 17 Dec 2020 01:15:43.595 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25847:S 17 Dec 2020 01:15:43.596 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+26037:C 17 Dec 2020 01:16:39.317 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26037:C 17 Dec 2020 01:16:39.317 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26037, just started
+26037:C 17 Dec 2020 01:16:39.317 # Configuration loaded
+26038:S 17 Dec 2020 01:16:39.319 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+26038:S 17 Dec 2020 01:16:39.319 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+26170:C 17 Dec 2020 01:17:15.076 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26170:C 17 Dec 2020 01:17:15.076 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26170, just started
+26170:C 17 Dec 2020 01:17:15.076 # Configuration loaded
+26176:S 17 Dec 2020 01:17:15.080 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+26176:S 17 Dec 2020 01:17:15.084 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+26254:C 17 Dec 2020 01:17:41.879 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26254:C 17 Dec 2020 01:17:41.879 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26254, just started
+26254:C 17 Dec 2020 01:17:41.879 # Configuration loaded
+26255:S 17 Dec 2020 01:17:41.880 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+26255:S 17 Dec 2020 01:17:41.880 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+26423:C 17 Dec 2020 01:18:29.481 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26423:C 17 Dec 2020 01:18:29.481 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26423, just started
+26423:C 17 Dec 2020 01:18:29.481 # Configuration loaded
+26424:S 17 Dec 2020 01:18:29.482 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+26424:S 17 Dec 2020 01:18:29.482 # Could not create server TCP listening socket 0.0.0.0:9002: bind: Address already in use
+26881:C 17 Dec 2020 01:21:13.978 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26881:C 17 Dec 2020 01:21:13.978 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26881, just started
+26881:C 17 Dec 2020 01:21:13.978 # Configuration loaded
+26887:S 17 Dec 2020 01:21:13.983 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+26887:S 17 Dec 2020 01:21:13.988 * Running mode=standalone, port=9002.
+26887:S 17 Dec 2020 01:21:13.988 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+26887:S 17 Dec 2020 01:21:13.988 # Server initialized
+26887:S 17 Dec 2020 01:21:13.988 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+26887:S 17 Dec 2020 01:21:13.988 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+26887:S 17 Dec 2020 01:21:13.990 * Ready to accept connections
+26887:S 17 Dec 2020 01:21:13.990 * Connecting to MASTER 172.16.0.17:9001
+26887:S 17 Dec 2020 01:21:13.990 * MASTER <-> REPLICA sync started
+26887:S 17 Dec 2020 01:21:13.990 * Non blocking connect for SYNC fired the event.
+26887:S 17 Dec 2020 01:21:13.991 * Master replied to PING, replication can continue...
+26887:S 17 Dec 2020 01:21:13.991 * Partial resynchronization not possible (no cached master)
+26887:S 17 Dec 2020 01:21:13.991 * Full resync from master: 3b86161706aa6e2dabbb636474df13c94a42a4fd:0
+26887:S 17 Dec 2020 01:21:14.092 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+26887:S 17 Dec 2020 01:21:14.092 * MASTER <-> REPLICA sync: Flushing old data
+26887:S 17 Dec 2020 01:21:14.092 * MASTER <-> REPLICA sync: Loading DB in memory
+26887:S 17 Dec 2020 01:21:14.092 * Loading RDB produced by version 6.0.3
+26887:S 17 Dec 2020 01:21:14.092 * RDB age 1 seconds
+26887:S 17 Dec 2020 01:21:14.092 * RDB memory usage when created 1.94 Mb
+26887:S 17 Dec 2020 01:21:14.092 * MASTER <-> REPLICA sync: Finished with success

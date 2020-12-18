@@ -1,0 +1,49 @@
+4617:C 19 Dec 2020 00:06:30.076 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4617:C 19 Dec 2020 00:06:30.076 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=4617, just started
+4617:C 19 Dec 2020 00:06:30.076 # Configuration loaded
+4621:M 19 Dec 2020 00:06:30.083 # Sorry, the cluster configuration file nodes.conf is already used by a different Redis Cluster node. Please make sure that different nodes use different cluster configuration files.
+6561:C 19 Dec 2020 00:13:27.645 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+6561:C 19 Dec 2020 00:13:27.645 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=6561, just started
+6561:C 19 Dec 2020 00:13:27.645 # Configuration loaded
+6563:M 19 Dec 2020 00:13:27.659 * No cluster configuration found, I'm 93308d0d2397869653c79737619faa166de515b5
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.3 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 10005
+ |    `-._   `._    /     _.-'    |     PID: 6563
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+6563:M 19 Dec 2020 00:13:27.665 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+6563:M 19 Dec 2020 00:13:27.665 # Server initialized
+6563:M 19 Dec 2020 00:13:27.666 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+6563:M 19 Dec 2020 00:13:27.666 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+6563:M 19 Dec 2020 00:13:27.666 * Ready to accept connections
+6563:M 19 Dec 2020 00:15:15.628 # configEpoch set to 5 via CLUSTER SET-CONFIG-EPOCH
+6563:M 19 Dec 2020 00:15:15.765 # IP address for this node updated to 172.16.0.17
+6563:M 19 Dec 2020 00:15:20.776 # Cluster state changed: ok
+6563:S 19 Dec 2020 00:15:22.635 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+6563:S 19 Dec 2020 00:15:22.886 * Connecting to MASTER 172.16.0.17:10001
+6563:S 19 Dec 2020 00:15:22.886 * MASTER <-> REPLICA sync started
+6563:S 19 Dec 2020 00:15:22.886 * Non blocking connect for SYNC fired the event.
+6563:S 19 Dec 2020 00:15:22.886 * Master replied to PING, replication can continue...
+6563:S 19 Dec 2020 00:15:22.886 * Trying a partial resynchronization (request 417e6ffa0f8c3c705bff4d1de7b534f3b0429e12:1).
+6563:S 19 Dec 2020 00:15:22.886 * Full resync from master: 722450678416e2bd3b88c35e98a7a73a0f4bc301:0
+6563:S 19 Dec 2020 00:15:22.886 * Discarding previously cached master state.
+6563:S 19 Dec 2020 00:15:22.981 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+6563:S 19 Dec 2020 00:15:22.981 * MASTER <-> REPLICA sync: Flushing old data
+6563:S 19 Dec 2020 00:15:22.981 * MASTER <-> REPLICA sync: Loading DB in memory
+6563:S 19 Dec 2020 00:15:22.981 * Loading RDB produced by version 6.0.3
+6563:S 19 Dec 2020 00:15:22.981 * RDB age 0 seconds
+6563:S 19 Dec 2020 00:15:22.981 * RDB memory usage when created 2.52 Mb
+6563:S 19 Dec 2020 00:15:22.981 * MASTER <-> REPLICA sync: Finished with success

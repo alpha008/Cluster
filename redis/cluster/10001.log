@@ -1,0 +1,42 @@
+4612:C 19 Dec 2020 00:06:30.057 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4612:C 19 Dec 2020 00:06:30.057 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=4612, just started
+4612:C 19 Dec 2020 00:06:30.057 # Configuration loaded
+4613:M 19 Dec 2020 00:06:30.059 # Could not create server TCP listening socket 0.0.0.0:10001: bind: Address already in use
+6556:C 19 Dec 2020 00:13:27.638 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+6556:C 19 Dec 2020 00:13:27.638 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=6556, just started
+6556:C 19 Dec 2020 00:13:27.638 # Configuration loaded
+6557:M 19 Dec 2020 00:13:27.640 * No cluster configuration found, I'm 458f6515c8738c236a4d8c6af9a9fc2bcff75dca
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.3 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 10001
+ |    `-._   `._    /     _.-'    |     PID: 6557
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+6557:M 19 Dec 2020 00:13:27.656 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+6557:M 19 Dec 2020 00:13:27.656 # Server initialized
+6557:M 19 Dec 2020 00:13:27.656 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+6557:M 19 Dec 2020 00:13:27.656 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+6557:M 19 Dec 2020 00:13:27.656 * Ready to accept connections
+6557:M 19 Dec 2020 00:15:15.627 # configEpoch set to 1 via CLUSTER SET-CONFIG-EPOCH
+6557:M 19 Dec 2020 00:15:15.665 # IP address for this node updated to 172.16.0.17
+6557:M 19 Dec 2020 00:15:20.576 # Cluster state changed: ok
+6557:M 19 Dec 2020 00:15:22.886 * Replica 172.16.0.17:10005 asks for synchronization
+6557:M 19 Dec 2020 00:15:22.886 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '417e6ffa0f8c3c705bff4d1de7b534f3b0429e12', my replication IDs are 'd84169028bbcc5210f7241608d3090f1c793cd79' and '0000000000000000000000000000000000000000')
+6557:M 19 Dec 2020 00:15:22.886 * Starting BGSAVE for SYNC with target: disk
+6557:M 19 Dec 2020 00:15:22.886 * Background saving started by pid 6982
+6982:C 19 Dec 2020 00:15:22.893 * DB saved on disk
+6982:C 19 Dec 2020 00:15:22.893 * RDB: 0 MB of memory used by copy-on-write
+6557:M 19 Dec 2020 00:15:22.981 * Background saving terminated with success
+6557:M 19 Dec 2020 00:15:22.981 * Synchronization with replica 172.16.0.17:10005 succeeded

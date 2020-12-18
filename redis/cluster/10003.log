@@ -1,0 +1,47 @@
+4615:C 19 Dec 2020 00:06:30.078 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4615:C 19 Dec 2020 00:06:30.078 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=4615, just started
+4615:C 19 Dec 2020 00:06:30.078 # Configuration loaded
+4623:M 19 Dec 2020 00:06:30.082 # Sorry, the cluster configuration file nodes.conf is already used by a different Redis Cluster node. Please make sure that different nodes use different cluster configuration files.
+6559:C 19 Dec 2020 00:13:27.656 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+6559:C 19 Dec 2020 00:13:27.656 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=6559, just started
+6559:C 19 Dec 2020 00:13:27.656 # Configuration loaded
+6568:M 19 Dec 2020 00:13:27.660 * No cluster configuration found, I'm 00cf8ccde1a6e2d41f5f5374afb51b7c75aadd37
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.3 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 10003
+ |    `-._   `._    /     _.-'    |     PID: 6568
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+6568:M 19 Dec 2020 00:13:27.666 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+6568:M 19 Dec 2020 00:13:27.666 # Server initialized
+6568:M 19 Dec 2020 00:13:27.666 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+6568:M 19 Dec 2020 00:13:27.666 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+6568:M 19 Dec 2020 00:13:27.666 * Ready to accept connections
+6568:M 19 Dec 2020 00:15:15.628 # configEpoch set to 3 via CLUSTER SET-CONFIG-EPOCH
+6568:M 19 Dec 2020 00:15:15.767 # IP address for this node updated to 172.16.0.17
+6568:M 19 Dec 2020 00:15:21.780 # Cluster state changed: ok
+6568:M 19 Dec 2020 00:15:22.892 * Replica 172.16.0.17:10004 asks for synchronization
+6568:M 19 Dec 2020 00:15:22.892 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '4ac5ef4b2fc19aad1ef569660854d26ab928bb42', my replication IDs are 'f5c42b8ae0687ab470294170f3d689249f999cd7' and '0000000000000000000000000000000000000000')
+6568:M 19 Dec 2020 00:15:22.892 * Starting BGSAVE for SYNC with target: disk
+6568:M 19 Dec 2020 00:15:22.892 * Background saving started by pid 6983
+6983:C 19 Dec 2020 00:15:22.898 * DB saved on disk
+6983:C 19 Dec 2020 00:15:22.899 * RDB: 0 MB of memory used by copy-on-write
+6568:M 19 Dec 2020 00:15:22.991 * Background saving terminated with success
+6568:M 19 Dec 2020 00:15:22.991 * Synchronization with replica 172.16.0.17:10004 succeeded
+6568:M 19 Dec 2020 00:32:13.048 * 1 changes in 900 seconds. Saving...
+6568:M 19 Dec 2020 00:32:13.048 * Background saving started by pid 9628
+9628:C 19 Dec 2020 00:32:13.056 * DB saved on disk
+9628:C 19 Dec 2020 00:32:13.056 * RDB: 0 MB of memory used by copy-on-write
+6568:M 19 Dec 2020 00:32:13.149 * Background saving terminated with success

@@ -8687,3 +8687,11 @@
 22833:M 18 Dec 2020 01:06:37.100 # CONFIG REWRITE executed with success.
 22833:M 18 Dec 2020 01:06:38.740 * Replica 172.16.0.17:9002 asks for synchronization
 22833:M 18 Dec 2020 01:06:38.740 * Partial resynchronization request from 172.16.0.17:9002 accepted. Sending 434 bytes of backlog starting from offset 31310.
+22833:M 18 Dec 2020 02:50:43.476 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22833:M 18 Dec 2020 03:18:16.347 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22833:M 18 Dec 2020 11:00:53.239 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22833:M 18 Dec 2020 12:51:44.968 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22833:M 18 Dec 2020 14:52:12.417 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22833:M 18 Dec 2020 20:51:00.957 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22833:M 18 Dec 2020 22:56:41.163 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22833:M 18 Dec 2020 23:42:40.962 # Connection with replica 172.16.0.17:9002 lost.

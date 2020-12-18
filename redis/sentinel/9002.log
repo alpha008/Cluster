@@ -8633,3 +8633,7 @@
 22824:S 18 Dec 2020 01:06:38.740 * Successful partial resynchronization with master.
 22824:S 18 Dec 2020 01:06:38.740 # Master replication ID changed to 06bbe2b1a5039676acb1ace8933d3969fefda94b
 22824:S 18 Dec 2020 01:06:38.740 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+22824:S 18 Dec 2020 05:08:22.125 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22824:S 18 Dec 2020 06:11:43.257 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22824:S 18 Dec 2020 21:32:48.279 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+22824:S 18 Dec 2020 22:33:35.814 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.

@@ -40,3 +40,481 @@
 6982:C 19 Dec 2020 00:15:22.893 * RDB: 0 MB of memory used by copy-on-write
 6557:M 19 Dec 2020 00:15:22.981 * Background saving terminated with success
 6557:M 19 Dec 2020 00:15:22.981 * Synchronization with replica 172.16.0.17:10005 succeeded
+6557:M 19 Dec 2020 02:21:38.825 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 19 Dec 2020 07:47:10.455 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 19 Dec 2020 09:08:50.900 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 19 Dec 2020 11:26:53.165 # Bad message length or signature received from Cluster bus.
+6557:M 19 Dec 2020 11:26:54.646 # Bad message length or signature received from Cluster bus.
+6557:M 19 Dec 2020 12:57:59.751 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 19 Dec 2020 17:35:01.181 # Bad message length or signature received from Cluster bus.
+6557:M 19 Dec 2020 17:36:40.935 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 19 Dec 2020 19:12:22.993 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 20 Dec 2020 03:41:31.436 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 20 Dec 2020 04:16:27.459 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 20 Dec 2020 05:15:14.477 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 20 Dec 2020 13:28:20.049 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 20 Dec 2020 15:12:46.867 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 20 Dec 2020 15:14:01.063 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 20 Dec 2020 18:52:53.085 # Bad message length or signature received from Cluster bus.
+6557:M 20 Dec 2020 23:16:41.042 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 21 Dec 2020 01:18:30.471 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 21 Dec 2020 01:48:55.713 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 21 Dec 2020 06:02:02.443 # Bad message length or signature received from Cluster bus.
+6557:M 21 Dec 2020 12:14:22.181 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 21 Dec 2020 13:52:43.884 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 21 Dec 2020 15:30:57.083 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 21 Dec 2020 22:13:57.936 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 21 Dec 2020 23:34:51.778 # Bad message length or signature received from Cluster bus.
+6557:M 21 Dec 2020 23:42:44.200 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 22 Dec 2020 04:15:13.769 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 22 Dec 2020 10:00:18.654 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 22 Dec 2020 10:06:30.638 # Bad message length or signature received from Cluster bus.
+6557:M 23 Dec 2020 02:22:43.013 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 23 Dec 2020 03:17:39.614 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 23 Dec 2020 04:46:33.690 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 23 Dec 2020 13:03:05.726 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 23 Dec 2020 13:26:25.317 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 23 Dec 2020 14:43:58.989 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 23 Dec 2020 16:57:35.845 # Bad message length or signature received from Cluster bus.
+6557:M 24 Dec 2020 00:50:51.960 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 24 Dec 2020 01:52:34.718 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 24 Dec 2020 04:04:51.435 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 24 Dec 2020 05:17:20.862 # Bad message length or signature received from Cluster bus.
+6557:M 24 Dec 2020 09:13:39.884 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 24 Dec 2020 10:44:35.673 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 24 Dec 2020 14:43:57.337 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 24 Dec 2020 20:45:51.816 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 24 Dec 2020 23:09:08.914 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 25 Dec 2020 01:19:12.957 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 25 Dec 2020 06:52:23.015 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 25 Dec 2020 08:30:50.816 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 25 Dec 2020 14:01:46.575 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 25 Dec 2020 16:50:26.897 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 25 Dec 2020 18:21:50.215 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 25 Dec 2020 21:20:43.366 # Bad message length or signature received from Cluster bus.
+6557:M 25 Dec 2020 22:10:20.240 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 26 Dec 2020 02:02:20.557 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 26 Dec 2020 02:54:24.090 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 26 Dec 2020 05:15:17.564 # Bad message length or signature received from Cluster bus.
+6557:M 26 Dec 2020 05:35:42.289 # Bad message length or signature received from Cluster bus.
+6557:M 26 Dec 2020 05:48:33.439 # Bad message length or signature received from Cluster bus.
+6557:M 26 Dec 2020 07:48:46.216 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 26 Dec 2020 07:53:59.595 # Bad message length or signature received from Cluster bus.
+6557:M 26 Dec 2020 12:27:07.231 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 26 Dec 2020 13:16:25.446 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 26 Dec 2020 17:37:56.796 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 26 Dec 2020 23:05:48.370 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 26 Dec 2020 23:25:52.987 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 27 Dec 2020 03:28:29.182 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 27 Dec 2020 04:01:37.851 # Bad message length or signature received from Cluster bus.
+6557:M 27 Dec 2020 07:44:46.113 # Bad message length or signature received from Cluster bus.
+6557:M 27 Dec 2020 09:18:59.837 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 27 Dec 2020 13:23:26.261 # Bad message length or signature received from Cluster bus.
+6557:M 27 Dec 2020 13:35:45.070 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 27 Dec 2020 17:03:56.093 # Bad message length or signature received from Cluster bus.
+6557:M 27 Dec 2020 19:21:16.890 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 27 Dec 2020 23:02:46.577 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 28 Dec 2020 00:46:13.707 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 28 Dec 2020 04:07:13.075 # Bad message length or signature received from Cluster bus.
+6557:M 28 Dec 2020 05:22:49.253 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 28 Dec 2020 08:48:11.038 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 28 Dec 2020 11:04:48.208 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 28 Dec 2020 12:48:43.752 # Bad message length or signature received from Cluster bus.
+6557:M 28 Dec 2020 15:20:46.146 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 28 Dec 2020 18:39:53.029 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 28 Dec 2020 23:49:37.466 # Bad message length or signature received from Cluster bus.
+6557:M 29 Dec 2020 00:01:26.459 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 01:23:07.904 # Bad message length or signature received from Cluster bus.
+6557:M 29 Dec 2020 01:50:42.900 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 02:18:41.871 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 03:47:53.602 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 08:02:01.970 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 08:33:05.475 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 12:13:59.339 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 12:19:54.391 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 13:50:06.120 # Bad message length or signature received from Cluster bus.
+6557:M 29 Dec 2020 15:50:37.007 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 16:00:17.710 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 17:56:31.873 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 21:28:58.681 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 22:15:44.519 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 29 Dec 2020 22:57:53.605 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 30 Dec 2020 01:36:41.514 # Bad message length or signature received from Cluster bus.
+6557:M 30 Dec 2020 06:29:25.277 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 30 Dec 2020 08:33:50.190 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 30 Dec 2020 09:29:05.101 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 30 Dec 2020 16:05:38.298 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 30 Dec 2020 16:26:34.636 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 30 Dec 2020 18:34:48.670 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 30 Dec 2020 19:34:12.486 # Bad message length or signature received from Cluster bus.
+6557:M 30 Dec 2020 19:34:13.683 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 30 Dec 2020 19:34:14.154 # Bad message length or signature received from Cluster bus.
+6557:M 30 Dec 2020 20:24:06.256 # Bad message length or signature received from Cluster bus.
+6557:M 30 Dec 2020 20:24:06.257 # Bad message length or signature received from Cluster bus.
+6557:M 30 Dec 2020 20:24:06.257 # Bad message length or signature received from Cluster bus.
+6557:M 30 Dec 2020 22:03:11.683 # Bad message length or signature received from Cluster bus.
+6557:M 30 Dec 2020 22:03:11.686 # Bad message length or signature received from Cluster bus.
+6557:M 30 Dec 2020 22:03:17.896 # Bad message length or signature received from Cluster bus.
+6557:M 30 Dec 2020 23:20:04.013 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 31 Dec 2020 00:58:32.458 # Bad message length or signature received from Cluster bus.
+6557:M 31 Dec 2020 02:28:37.311 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 31 Dec 2020 04:38:39.793 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 31 Dec 2020 10:55:06.834 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 31 Dec 2020 11:38:53.834 # Bad message length or signature received from Cluster bus.
+6557:M 31 Dec 2020 12:22:20.311 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 31 Dec 2020 14:41:21.962 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 31 Dec 2020 21:31:53.837 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 31 Dec 2020 23:44:36.919 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 01 Jan 2021 00:47:24.561 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 01 Jan 2021 08:40:56.354 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 01 Jan 2021 08:49:58.186 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 01 Jan 2021 10:52:00.103 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 01 Jan 2021 18:40:27.175 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 01 Jan 2021 21:00:57.311 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 01 Jan 2021 22:58:25.882 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 01 Jan 2021 23:57:28.084 # Bad message length or signature received from Cluster bus.
+6557:M 02 Jan 2021 06:27:45.285 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 02 Jan 2021 07:15:29.840 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 02 Jan 2021 09:43:51.771 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 02 Jan 2021 16:28:33.478 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 02 Jan 2021 17:24:25.484 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 02 Jan 2021 20:24:10.279 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 03 Jan 2021 02:27:48.160 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 03 Jan 2021 03:32:21.428 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 03 Jan 2021 09:42:09.878 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 03 Jan 2021 13:47:49.279 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 03 Jan 2021 14:08:21.806 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 03 Jan 2021 21:20:44.381 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:M 03 Jan 2021 22:10:15.391 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6557:signal-handler (1609687974) Received SIGTERM scheduling shutdown...
+6557:M 03 Jan 2021 23:32:54.121 # User requested shutdown...
+6557:M 03 Jan 2021 23:32:54.125 * Saving the final RDB snapshot before exiting.
+6557:M 03 Jan 2021 23:32:54.144 * DB saved on disk
+6557:M 03 Jan 2021 23:32:54.144 * Removing the pid file.
+6557:M 03 Jan 2021 23:32:54.144 # Redis is now ready to exit, bye bye...
+31988:C 21 Jan 2021 23:36:30.991 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31988:C 21 Jan 2021 23:36:31.002 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=31988, just started
+31988:C 21 Jan 2021 23:36:31.002 # Configuration loaded
+31989:M 21 Jan 2021 23:36:31.018 * Node configuration loaded, I'm 458f6515c8738c236a4d8c6af9a9fc2bcff75dca
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.3 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 10001
+ |    `-._   `._    /     _.-'    |     PID: 31989
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+31989:M 21 Jan 2021 23:36:31.021 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+31989:M 21 Jan 2021 23:36:31.021 # Server initialized
+31989:M 21 Jan 2021 23:36:31.021 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+31989:M 21 Jan 2021 23:36:31.021 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+31989:M 21 Jan 2021 23:36:31.022 * Loading RDB produced by version 6.0.3
+31989:M 21 Jan 2021 23:36:31.022 * RDB age 1555417 seconds
+31989:M 21 Jan 2021 23:36:31.022 * RDB memory usage when created 2.48 Mb
+31989:M 21 Jan 2021 23:36:31.022 * DB loaded from disk: 0.001 seconds
+31989:M 21 Jan 2021 23:36:31.022 * Ready to accept connections
+31989:M 21 Jan 2021 23:36:32.136 * Replica 172.16.0.17:10005 asks for synchronization
+31989:M 21 Jan 2021 23:36:32.136 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '722450678416e2bd3b88c35e98a7a73a0f4bc301', my replication IDs are 'fa1a4d89331822ed7eb6206552f3fbb37526ae81' and '0000000000000000000000000000000000000000')
+31989:M 21 Jan 2021 23:36:32.136 * Starting BGSAVE for SYNC with target: disk
+31989:M 21 Jan 2021 23:36:32.137 * Background saving started by pid 32026
+32026:C 21 Jan 2021 23:36:32.141 * DB saved on disk
+32026:C 21 Jan 2021 23:36:32.141 * RDB: 0 MB of memory used by copy-on-write
+31989:M 21 Jan 2021 23:36:32.223 * Background saving terminated with success
+31989:M 21 Jan 2021 23:36:32.223 * Synchronization with replica 172.16.0.17:10005 succeeded
+31989:M 21 Jan 2021 23:36:33.025 # Cluster state changed: ok
+31989:M 22 Jan 2021 02:18:31.044 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 22 Jan 2021 02:28:33.467 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 22 Jan 2021 06:45:30.981 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 22 Jan 2021 07:46:36.316 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 22 Jan 2021 14:37:59.332 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 22 Jan 2021 18:38:40.211 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 22 Jan 2021 22:30:26.894 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 23 Jan 2021 00:49:36.138 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 23 Jan 2021 02:23:36.468 # Bad message length or signature received from Cluster bus.
+31989:M 23 Jan 2021 08:25:27.270 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 23 Jan 2021 09:05:13.091 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 23 Jan 2021 10:51:52.106 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 23 Jan 2021 18:57:11.192 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 23 Jan 2021 18:57:11.204 # Bad message length or signature received from Cluster bus.
+31989:M 23 Jan 2021 18:57:12.903 # Bad message length or signature received from Cluster bus.
+31989:M 23 Jan 2021 18:59:45.814 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 23 Jan 2021 20:11:59.386 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 23 Jan 2021 22:51:04.628 # Bad message length or signature received from Cluster bus.
+31989:M 24 Jan 2021 00:38:49.525 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 24 Jan 2021 03:22:26.035 # Bad message length or signature received from Cluster bus.
+31989:M 24 Jan 2021 04:59:59.271 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 24 Jan 2021 06:59:53.486 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 24 Jan 2021 14:58:52.167 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 24 Jan 2021 20:51:41.067 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 24 Jan 2021 21:19:15.875 # Bad message length or signature received from Cluster bus.
+31989:M 24 Jan 2021 21:38:16.443 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 24 Jan 2021 22:54:15.952 # Bad message length or signature received from Cluster bus.
+31989:M 25 Jan 2021 01:05:15.424 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 25 Jan 2021 04:02:19.816 # Bad message length or signature received from Cluster bus.
+31989:M 25 Jan 2021 06:51:59.436 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 25 Jan 2021 08:57:08.811 # Bad message length or signature received from Cluster bus.
+31989:M 25 Jan 2021 09:36:39.720 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 25 Jan 2021 10:58:12.931 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 25 Jan 2021 16:58:58.117 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 25 Jan 2021 20:34:04.981 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 25 Jan 2021 20:58:22.823 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 26 Jan 2021 01:51:12.616 # Bad message length or signature received from Cluster bus.
+31989:M 26 Jan 2021 03:05:36.886 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 26 Jan 2021 04:13:17.246 # Bad message length or signature received from Cluster bus.
+31989:M 26 Jan 2021 04:54:40.700 # Bad message length or signature received from Cluster bus.
+31989:M 26 Jan 2021 06:53:59.679 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 26 Jan 2021 07:42:03.592 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 26 Jan 2021 15:01:07.207 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 26 Jan 2021 16:46:55.144 # Bad message length or signature received from Cluster bus.
+31989:M 26 Jan 2021 17:00:34.873 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 26 Jan 2021 21:42:47.043 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 26 Jan 2021 23:05:45.540 # Bad message length or signature received from Cluster bus.
+31989:M 27 Jan 2021 00:46:04.169 # Bad message length or signature received from Cluster bus.
+31989:M 27 Jan 2021 01:17:03.104 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 27 Jan 2021 03:09:16.190 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 27 Jan 2021 08:55:53.458 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:M 27 Jan 2021 11:22:27.614 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+31989:signal-handler (1611721389) Received SIGTERM scheduling shutdown...
+31989:M 27 Jan 2021 12:23:09.349 # User requested shutdown...
+31989:M 27 Jan 2021 12:23:09.349 * Saving the final RDB snapshot before exiting.
+31989:M 27 Jan 2021 12:23:09.392 * DB saved on disk
+31989:M 27 Jan 2021 12:23:09.392 * Removing the pid file.
+31989:M 27 Jan 2021 12:23:09.392 # Redis is now ready to exit, bye bye...
+26499:C 27 Jan 2021 22:10:42.213 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26499:C 27 Jan 2021 22:10:42.214 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26499, just started
+26499:C 27 Jan 2021 22:10:42.214 # Configuration loaded
+26500:M 27 Jan 2021 22:10:42.218 * Node configuration loaded, I'm 458f6515c8738c236a4d8c6af9a9fc2bcff75dca
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.3 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 10001
+ |    `-._   `._    /     _.-'    |     PID: 26500
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+26500:M 27 Jan 2021 22:10:42.219 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+26500:M 27 Jan 2021 22:10:42.219 # Server initialized
+26500:M 27 Jan 2021 22:10:42.219 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+26500:M 27 Jan 2021 22:10:42.219 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+26500:M 27 Jan 2021 22:10:42.220 * Loading RDB produced by version 6.0.3
+26500:M 27 Jan 2021 22:10:42.220 * RDB age 35253 seconds
+26500:M 27 Jan 2021 22:10:42.220 * RDB memory usage when created 2.48 Mb
+26500:M 27 Jan 2021 22:10:42.220 * DB loaded from disk: 0.001 seconds
+26500:M 27 Jan 2021 22:10:42.220 * Ready to accept connections
+26500:M 27 Jan 2021 22:10:43.398 * Replica 172.16.0.17:10005 asks for synchronization
+26500:M 27 Jan 2021 22:10:43.398 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '42e4a68be7cb03cd18c54a55f0d78a18df46aeeb', my replication IDs are '322c6280a3c4c54e56855cc3ce56c3a2d740d26e' and '0000000000000000000000000000000000000000')
+26500:M 27 Jan 2021 22:10:43.398 * Starting BGSAVE for SYNC with target: disk
+26500:M 27 Jan 2021 22:10:43.398 * Background saving started by pid 26540
+26540:C 27 Jan 2021 22:10:43.427 * DB saved on disk
+26540:C 27 Jan 2021 22:10:43.427 * RDB: 0 MB of memory used by copy-on-write
+26500:M 27 Jan 2021 22:10:43.524 * Background saving terminated with success
+26500:M 27 Jan 2021 22:10:43.525 * Synchronization with replica 172.16.0.17:10005 succeeded
+26500:M 27 Jan 2021 22:10:44.227 # Cluster state changed: ok
+26500:M 28 Jan 2021 05:09:19.450 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 28 Jan 2021 10:08:36.260 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 28 Jan 2021 10:38:35.649 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 28 Jan 2021 15:19:42.313 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 28 Jan 2021 20:43:02.027 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 28 Jan 2021 22:09:15.719 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 29 Jan 2021 05:09:32.800 # Bad message length or signature received from Cluster bus.
+26500:M 29 Jan 2021 05:09:34.826 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 29 Jan 2021 06:25:07.705 # Bad message length or signature received from Cluster bus.
+26500:M 29 Jan 2021 06:57:54.503 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 29 Jan 2021 08:55:24.500 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 29 Jan 2021 14:31:07.558 # Bad message length or signature received from Cluster bus.
+26500:M 29 Jan 2021 16:55:09.021 # Bad message length or signature received from Cluster bus.
+26500:M 29 Jan 2021 17:04:40.816 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 29 Jan 2021 17:13:32.982 # Bad message length or signature received from Cluster bus.
+26500:M 29 Jan 2021 20:41:10.097 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 30 Jan 2021 01:31:50.307 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 30 Jan 2021 03:16:00.703 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 30 Jan 2021 08:35:07.183 # Bad message length or signature received from Cluster bus.
+26500:M 30 Jan 2021 09:11:48.529 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 30 Jan 2021 11:21:29.091 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 30 Jan 2021 12:06:25.038 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 30 Jan 2021 13:28:55.703 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 30 Jan 2021 22:22:53.757 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 30 Jan 2021 22:34:36.099 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 30 Jan 2021 23:37:51.714 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 31 Jan 2021 02:15:01.928 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 31 Jan 2021 02:15:02.077 # Bad message length or signature received from Cluster bus.
+26500:M 31 Jan 2021 02:15:06.688 # Bad message length or signature received from Cluster bus.
+26500:M 31 Jan 2021 02:21:05.983 # Bad message length or signature received from Cluster bus.
+26500:M 31 Jan 2021 03:55:26.075 # Bad message length or signature received from Cluster bus.
+26500:M 31 Jan 2021 07:04:57.812 # Bad message length or signature received from Cluster bus.
+26500:M 31 Jan 2021 08:32:19.301 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 31 Jan 2021 09:10:17.006 # Bad message length or signature received from Cluster bus.
+26500:M 31 Jan 2021 09:20:25.033 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 31 Jan 2021 09:40:59.746 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 31 Jan 2021 15:37:58.209 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 31 Jan 2021 20:58:12.511 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 01 Feb 2021 00:30:08.636 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 01 Feb 2021 00:43:08.396 # Bad message length or signature received from Cluster bus.
+26500:M 01 Feb 2021 02:06:43.860 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 01 Feb 2021 04:33:58.606 # Bad message length or signature received from Cluster bus.
+26500:M 01 Feb 2021 06:54:34.578 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 01 Feb 2021 11:58:50.083 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 01 Feb 2021 12:05:14.764 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 01 Feb 2021 16:59:56.690 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 01 Feb 2021 22:56:32.961 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 01 Feb 2021 23:49:44.298 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 02 Feb 2021 02:50:45.203 # Bad message length or signature received from Cluster bus.
+26500:M 02 Feb 2021 03:08:44.359 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 02 Feb 2021 07:02:14.073 # Bad message length or signature received from Cluster bus.
+26500:M 02 Feb 2021 09:46:28.315 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 02 Feb 2021 10:15:06.379 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 02 Feb 2021 13:03:18.900 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 02 Feb 2021 19:49:36.172 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 02 Feb 2021 23:05:40.021 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 02 Feb 2021 23:07:32.399 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 03 Feb 2021 03:11:51.261 # Bad message length or signature received from Cluster bus.
+26500:M 03 Feb 2021 03:34:26.512 # Bad message length or signature received from Cluster bus.
+26500:M 03 Feb 2021 04:24:50.948 # Bad message length or signature received from Cluster bus.
+26500:M 03 Feb 2021 04:45:01.096 # Bad message length or signature received from Cluster bus.
+26500:M 03 Feb 2021 05:58:02.207 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 03 Feb 2021 08:05:45.175 # Bad message length or signature received from Cluster bus.
+26500:M 03 Feb 2021 09:02:29.735 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 03 Feb 2021 09:57:25.688 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 03 Feb 2021 16:06:15.895 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 03 Feb 2021 19:09:29.572 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 03 Feb 2021 20:48:09.066 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 04 Feb 2021 01:23:22.386 # Bad message length or signature received from Cluster bus.
+26500:M 04 Feb 2021 02:01:27.003 # Bad message length or signature received from Cluster bus.
+26500:M 04 Feb 2021 02:17:20.008 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 04 Feb 2021 02:44:10.908 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 04 Feb 2021 03:11:37.766 # Bad message length or signature received from Cluster bus.
+26500:M 04 Feb 2021 05:13:45.307 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 04 Feb 2021 05:47:45.141 # Bad message length or signature received from Cluster bus.
+26500:M 04 Feb 2021 08:03:33.630 # Bad message length or signature received from Cluster bus.
+26500:M 04 Feb 2021 10:18:34.292 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 04 Feb 2021 11:42:26.746 # Bad message length or signature received from Cluster bus.
+26500:M 04 Feb 2021 15:43:23.445 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 04 Feb 2021 15:45:59.239 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 04 Feb 2021 16:25:01.736 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 04 Feb 2021 21:47:27.236 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 04 Feb 2021 21:59:32.684 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 05 Feb 2021 01:37:06.128 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 05 Feb 2021 01:47:21.557 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 05 Feb 2021 08:30:06.256 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 05 Feb 2021 11:23:59.086 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 05 Feb 2021 11:42:23.121 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 05 Feb 2021 15:20:31.966 # Bad message length or signature received from Cluster bus.
+26500:M 05 Feb 2021 19:06:12.203 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 05 Feb 2021 21:15:08.564 # Bad message length or signature received from Cluster bus.
+26500:M 05 Feb 2021 22:10:19.681 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 05 Feb 2021 23:15:28.381 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 06 Feb 2021 01:28:39.658 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 06 Feb 2021 07:32:03.610 # Bad message length or signature received from Cluster bus.
+26500:M 06 Feb 2021 08:03:29.351 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 06 Feb 2021 08:40:48.300 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 06 Feb 2021 09:01:13.386 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 06 Feb 2021 15:25:53.552 # Bad message length or signature received from Cluster bus.
+26500:M 06 Feb 2021 16:37:48.095 # Bad message length or signature received from Cluster bus.
+26500:M 06 Feb 2021 16:37:49.550 # Bad message length or signature received from Cluster bus.
+26500:M 06 Feb 2021 18:00:13.079 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 06 Feb 2021 18:46:41.126 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 06 Feb 2021 19:56:29.298 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 06 Feb 2021 20:59:45.416 # Bad message length or signature received from Cluster bus.
+26500:M 07 Feb 2021 03:55:50.703 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 07 Feb 2021 04:35:06.042 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 07 Feb 2021 06:23:51.667 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 07 Feb 2021 13:52:47.276 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 07 Feb 2021 14:20:08.210 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 07 Feb 2021 17:05:50.958 # Bad message length or signature received from Cluster bus.
+26500:M 07 Feb 2021 18:04:16.464 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 07 Feb 2021 23:51:36.917 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 08 Feb 2021 00:06:43.271 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 08 Feb 2021 04:31:09.302 # Bad message length or signature received from Cluster bus.
+26500:M 08 Feb 2021 05:04:25.132 # Bad message length or signature received from Cluster bus.
+26500:M 08 Feb 2021 07:18:37.086 # Bad message length or signature received from Cluster bus.
+26500:M 08 Feb 2021 07:29:52.712 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 08 Feb 2021 08:15:06.743 # Bad message length or signature received from Cluster bus.
+26500:M 08 Feb 2021 09:43:25.239 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 08 Feb 2021 12:02:20.249 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 08 Feb 2021 17:26:27.164 # Bad message length or signature received from Cluster bus.
+26500:M 08 Feb 2021 18:31:25.371 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 08 Feb 2021 19:46:54.585 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 08 Feb 2021 21:39:29.591 # Bad message length or signature received from Cluster bus.
+26500:M 08 Feb 2021 23:08:51.498 # Bad message length or signature received from Cluster bus.
+26500:M 09 Feb 2021 05:07:49.608 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 09 Feb 2021 05:40:57.271 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 09 Feb 2021 06:01:42.946 # Bad message length or signature received from Cluster bus.
+26500:M 09 Feb 2021 07:10:22.514 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 09 Feb 2021 15:32:48.185 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 09 Feb 2021 15:51:34.376 # Bad message length or signature received from Cluster bus.
+26500:M 09 Feb 2021 16:47:07.208 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 09 Feb 2021 17:00:35.251 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 09 Feb 2021 17:30:53.005 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 09 Feb 2021 17:45:59.107 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 09 Feb 2021 23:38:38.818 # Bad message length or signature received from Cluster bus.
+26500:M 10 Feb 2021 04:33:40.391 # Bad message length or signature received from Cluster bus.
+26500:M 10 Feb 2021 05:49:47.664 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 10 Feb 2021 06:53:28.402 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 10 Feb 2021 07:18:05.145 # Bad message length or signature received from Cluster bus.
+26500:M 10 Feb 2021 08:55:16.056 # Bad message length or signature received from Cluster bus.
+26500:M 10 Feb 2021 17:57:22.566 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 10 Feb 2021 18:10:01.080 # Bad message length or signature received from Cluster bus.
+26500:M 10 Feb 2021 20:10:34.665 # Bad message length or signature received from Cluster bus.
+26500:M 10 Feb 2021 21:55:46.242 # Bad message length or signature received from Cluster bus.
+26500:M 11 Feb 2021 00:38:38.746 # Bad message length or signature received from Cluster bus.
+26500:M 11 Feb 2021 00:58:53.001 # Bad message length or signature received from Cluster bus.
+26500:M 11 Feb 2021 03:29:29.123 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 11 Feb 2021 12:16:06.156 # Bad message length or signature received from Cluster bus.
+26500:M 11 Feb 2021 15:58:30.840 # Bad message length or signature received from Cluster bus.
+26500:M 11 Feb 2021 18:22:18.637 # Bad message length or signature received from Cluster bus.
+26500:M 11 Feb 2021 22:04:32.421 # Bad message length or signature received from Cluster bus.
+26500:M 12 Feb 2021 03:28:38.024 # Bad message length or signature received from Cluster bus.
+26500:M 12 Feb 2021 06:12:53.373 # Bad message length or signature received from Cluster bus.
+26500:M 12 Feb 2021 19:01:36.104 # Bad message length or signature received from Cluster bus.
+26500:M 12 Feb 2021 20:22:04.429 # Bad message length or signature received from Cluster bus.
+26500:M 12 Feb 2021 21:15:51.962 # Bad message length or signature received from Cluster bus.
+26500:M 13 Feb 2021 00:35:37.169 # Bad message length or signature received from Cluster bus.
+26500:M 13 Feb 2021 01:04:24.433 # Bad message length or signature received from Cluster bus.
+26500:M 13 Feb 2021 01:57:42.662 # Bad message length or signature received from Cluster bus.
+26500:M 13 Feb 2021 04:05:38.940 # Bad message length or signature received from Cluster bus.
+26500:M 13 Feb 2021 07:14:49.237 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 13 Feb 2021 07:41:59.864 # Bad message length or signature received from Cluster bus.
+26500:M 13 Feb 2021 14:31:34.568 # Bad message length or signature received from Cluster bus.
+26500:M 13 Feb 2021 20:55:19.601 # Bad message length or signature received from Cluster bus.
+26500:M 13 Feb 2021 23:19:32.445 # Bad message length or signature received from Cluster bus.
+26500:M 14 Feb 2021 01:05:03.670 # Bad message length or signature received from Cluster bus.
+26500:M 14 Feb 2021 02:33:37.885 # Bad message length or signature received from Cluster bus.
+26500:M 14 Feb 2021 08:19:03.545 # Bad message length or signature received from Cluster bus.
+26500:M 14 Feb 2021 10:47:38.219 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 14 Feb 2021 12:47:58.906 # Bad message length or signature received from Cluster bus.
+26500:M 14 Feb 2021 19:03:45.925 # Bad message length or signature received from Cluster bus.
+26500:M 15 Feb 2021 13:27:39.625 # Bad message length or signature received from Cluster bus.
+26500:M 15 Feb 2021 19:28:36.661 # Bad message length or signature received from Cluster bus.
+26500:M 15 Feb 2021 23:04:59.777 # Bad message length or signature received from Cluster bus.
+26500:M 16 Feb 2021 05:09:13.055 # Bad message length or signature received from Cluster bus.
+26500:M 16 Feb 2021 13:41:24.782 # Bad message length or signature received from Cluster bus.
+26500:M 17 Feb 2021 05:50:52.506 # Bad message length or signature received from Cluster bus.
+26500:M 17 Feb 2021 11:31:06.940 # Bad message length or signature received from Cluster bus.
+26500:M 17 Feb 2021 12:30:18.273 # Bad message length or signature received from Cluster bus.
+26500:M 17 Feb 2021 14:00:34.401 # Bad message length or signature received from Cluster bus.
+26500:M 17 Feb 2021 14:22:38.445 # Bad message length or signature received from Cluster bus.
+26500:M 17 Feb 2021 14:22:38.916 # Bad message length or signature received from Cluster bus.
+26500:M 18 Feb 2021 02:33:22.724 # Bad message length or signature received from Cluster bus.
+26500:M 18 Feb 2021 06:31:20.797 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26500:M 18 Feb 2021 07:12:38.319 # Bad message length or signature received from Cluster bus.
+26500:M 18 Feb 2021 16:38:47.521 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.

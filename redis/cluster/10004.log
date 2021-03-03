@@ -52,3 +52,196 @@
 9629:C 19 Dec 2020 00:32:13.058 * DB saved on disk
 9629:C 19 Dec 2020 00:32:13.058 * RDB: 0 MB of memory used by copy-on-write
 6571:S 19 Dec 2020 00:32:13.152 * Background saving terminated with success
+6571:S 26 Dec 2020 03:44:31.692 # Bad message length or signature received from Cluster bus.
+6571:S 27 Dec 2020 02:43:17.663 # Bad message length or signature received from Cluster bus.
+6571:S 29 Dec 2020 09:39:33.367 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6571:signal-handler (1609687974) Received SIGTERM scheduling shutdown...
+6571:S 03 Jan 2021 23:32:54.074 # User requested shutdown...
+6571:S 03 Jan 2021 23:32:54.074 * Saving the final RDB snapshot before exiting.
+6571:S 03 Jan 2021 23:32:54.095 * DB saved on disk
+6571:S 03 Jan 2021 23:32:54.107 * Removing the pid file.
+6571:S 03 Jan 2021 23:32:54.107 # Redis is now ready to exit, bye bye...
+31992:C 21 Jan 2021 23:36:31.124 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31992:C 21 Jan 2021 23:36:31.125 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=31992, just started
+31992:C 21 Jan 2021 23:36:31.125 # Configuration loaded
+32006:M 21 Jan 2021 23:36:31.136 * Node configuration loaded, I'm 01bab3233cbbf1ad6d572ec533f3fab797809edb
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.3 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 10004
+ |    `-._   `._    /     _.-'    |     PID: 32006
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+32006:M 21 Jan 2021 23:36:31.136 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+32006:M 21 Jan 2021 23:36:31.136 # Server initialized
+32006:M 21 Jan 2021 23:36:31.136 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+32006:M 21 Jan 2021 23:36:31.136 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+32006:M 21 Jan 2021 23:36:31.137 * Loading RDB produced by version 6.0.3
+32006:M 21 Jan 2021 23:36:31.137 * RDB age 1555417 seconds
+32006:M 21 Jan 2021 23:36:31.137 * RDB memory usage when created 2.48 Mb
+32006:M 21 Jan 2021 23:36:31.137 * DB loaded from disk: 0.000 seconds
+32006:M 21 Jan 2021 23:36:31.137 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+32006:M 21 Jan 2021 23:36:31.137 * Ready to accept connections
+32006:S 21 Jan 2021 23:36:31.137 * Discarding previously cached master state.
+32006:S 21 Jan 2021 23:36:31.137 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+32006:S 21 Jan 2021 23:36:31.137 # Cluster state changed: ok
+32006:S 21 Jan 2021 23:36:32.138 * Connecting to MASTER 172.16.0.17:10003
+32006:S 21 Jan 2021 23:36:32.139 * MASTER <-> REPLICA sync started
+32006:S 21 Jan 2021 23:36:32.139 * Non blocking connect for SYNC fired the event.
+32006:S 21 Jan 2021 23:36:32.139 * Master replied to PING, replication can continue...
+32006:S 21 Jan 2021 23:36:32.140 * Trying a partial resynchronization (request 722450678416e2bd3b88c35e98a7a73a0f4bc301:1928193).
+32006:S 21 Jan 2021 23:36:32.140 * Full resync from master: 42e4a68be7cb03cd18c54a55f0d78a18df46aeeb:0
+32006:S 21 Jan 2021 23:36:32.140 * Discarding previously cached master state.
+32006:S 21 Jan 2021 23:36:32.230 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+32006:S 21 Jan 2021 23:36:32.230 * MASTER <-> REPLICA sync: Flushing old data
+32006:S 21 Jan 2021 23:36:32.230 * MASTER <-> REPLICA sync: Loading DB in memory
+32006:S 21 Jan 2021 23:36:32.230 * Loading RDB produced by version 6.0.3
+32006:S 21 Jan 2021 23:36:32.230 * RDB age 0 seconds
+32006:S 21 Jan 2021 23:36:32.230 * RDB memory usage when created 2.52 Mb
+32006:S 21 Jan 2021 23:36:32.230 * MASTER <-> REPLICA sync: Finished with success
+32006:S 23 Jan 2021 01:28:54.272 # Bad message length or signature received from Cluster bus.
+32006:S 23 Jan 2021 14:45:20.397 # Bad message length or signature received from Cluster bus.
+32006:S 23 Jan 2021 14:45:29.962 # Bad message length or signature received from Cluster bus.
+32006:signal-handler (1611721389) Received SIGTERM scheduling shutdown...
+32006:S 27 Jan 2021 12:23:09.349 # User requested shutdown...
+32006:S 27 Jan 2021 12:23:09.351 * Saving the final RDB snapshot before exiting.
+32006:S 27 Jan 2021 12:23:09.394 * DB saved on disk
+32006:S 27 Jan 2021 12:23:09.394 * Removing the pid file.
+32006:S 27 Jan 2021 12:23:09.394 # Redis is now ready to exit, bye bye...
+26503:C 27 Jan 2021 22:10:42.323 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26503:C 27 Jan 2021 22:10:42.324 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26503, just started
+26503:C 27 Jan 2021 22:10:42.324 # Configuration loaded
+26510:M 27 Jan 2021 22:10:42.328 * Node configuration loaded, I'm 01bab3233cbbf1ad6d572ec533f3fab797809edb
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.3 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 10004
+ |    `-._   `._    /     _.-'    |     PID: 26510
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+26510:M 27 Jan 2021 22:10:42.330 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+26510:M 27 Jan 2021 22:10:42.330 # Server initialized
+26510:M 27 Jan 2021 22:10:42.330 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+26510:M 27 Jan 2021 22:10:42.330 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+26510:M 27 Jan 2021 22:10:42.330 * Loading RDB produced by version 6.0.3
+26510:M 27 Jan 2021 22:10:42.330 * RDB age 35253 seconds
+26510:M 27 Jan 2021 22:10:42.330 * RDB memory usage when created 2.48 Mb
+26510:M 27 Jan 2021 22:10:42.330 * DB loaded from disk: 0.000 seconds
+26510:M 27 Jan 2021 22:10:42.330 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+26510:M 27 Jan 2021 22:10:42.330 * Ready to accept connections
+26510:S 27 Jan 2021 22:10:42.330 * Discarding previously cached master state.
+26510:S 27 Jan 2021 22:10:42.330 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+26510:S 27 Jan 2021 22:10:42.330 # Cluster state changed: ok
+26510:S 27 Jan 2021 22:10:43.332 * Connecting to MASTER 172.16.0.17:10003
+26510:S 27 Jan 2021 22:10:43.332 * MASTER <-> REPLICA sync started
+26510:S 27 Jan 2021 22:10:43.332 * Non blocking connect for SYNC fired the event.
+26510:S 27 Jan 2021 22:10:43.332 * Master replied to PING, replication can continue...
+26510:S 27 Jan 2021 22:10:43.333 * Trying a partial resynchronization (request 42e4a68be7cb03cd18c54a55f0d78a18df46aeeb:667941).
+26510:S 27 Jan 2021 22:10:43.333 * Full resync from master: e9f6351307359eb83533cda62dbe3388ae1f0d66:0
+26510:S 27 Jan 2021 22:10:43.333 * Discarding previously cached master state.
+26510:S 27 Jan 2021 22:10:43.391 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+26510:S 27 Jan 2021 22:10:43.391 * MASTER <-> REPLICA sync: Flushing old data
+26510:S 27 Jan 2021 22:10:43.391 * MASTER <-> REPLICA sync: Loading DB in memory
+26510:S 27 Jan 2021 22:10:43.391 * Loading RDB produced by version 6.0.3
+26510:S 27 Jan 2021 22:10:43.391 * RDB age 0 seconds
+26510:S 27 Jan 2021 22:10:43.391 * RDB memory usage when created 2.52 Mb
+26510:S 27 Jan 2021 22:10:43.391 * MASTER <-> REPLICA sync: Finished with success
+26510:S 30 Jan 2021 08:35:04.181 # Bad message length or signature received from Cluster bus.
+26510:S 31 Jan 2021 09:10:39.845 # Bad message length or signature received from Cluster bus.
+26510:S 01 Feb 2021 14:05:42.201 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26510:S 02 Feb 2021 19:56:59.239 # Bad message length or signature received from Cluster bus.
+26510:S 02 Feb 2021 19:58:18.540 # Bad message length or signature received from Cluster bus.
+26510:S 02 Feb 2021 20:33:09.882 # Bad message length or signature received from Cluster bus.
+26510:S 02 Feb 2021 20:33:10.016 # Bad message length or signature received from Cluster bus.
+26510:S 02 Feb 2021 20:33:10.115 # Bad message length or signature received from Cluster bus.
+26510:S 02 Feb 2021 21:21:07.182 # Bad message length or signature received from Cluster bus.
+26510:S 03 Feb 2021 08:58:53.058 # Bad message length or signature received from Cluster bus.
+26510:S 03 Feb 2021 18:33:50.435 # Bad message length or signature received from Cluster bus.
+26510:S 04 Feb 2021 01:00:20.540 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26510:S 04 Feb 2021 14:49:01.635 # Bad message length or signature received from Cluster bus.
+26510:S 04 Feb 2021 16:20:53.698 # Bad message length or signature received from Cluster bus.
+26510:S 04 Feb 2021 17:33:41.872 # Bad message length or signature received from Cluster bus.
+26510:S 05 Feb 2021 02:52:21.832 # Bad message length or signature received from Cluster bus.
+26510:S 07 Feb 2021 18:21:34.420 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26510:S 08 Feb 2021 18:24:36.815 # Bad message length or signature received from Cluster bus.
+26510:S 08 Feb 2021 19:11:32.673 # Bad message length or signature received from Cluster bus.
+26510:S 08 Feb 2021 19:44:31.218 # Bad message length or signature received from Cluster bus.
+26510:S 08 Feb 2021 20:17:05.496 # Bad message length or signature received from Cluster bus.
+26510:S 08 Feb 2021 20:49:46.528 # Bad message length or signature received from Cluster bus.
+26510:S 08 Feb 2021 21:22:25.250 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:34:53.299 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:34:58.417 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:34:58.500 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:34:58.578 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:34:58.652 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:34:58.730 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:34:58.810 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:06.432 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:06.513 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:06.594 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:06.675 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:06.752 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:06.835 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:06.915 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:06.996 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.073 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.148 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.239 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.318 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.394 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.469 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.546 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.628 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.708 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.782 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:07.859 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:12.977 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:18.100 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:18.187 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:18.267 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:18.346 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:18.425 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:18.506 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:28.666 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:28.744 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:28.826 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:28.903 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:28.984 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:29.063 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:29.140 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:35:29.217 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:38:55.205 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 02:39:25.337 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 03:50:27.118 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 03:50:27.205 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 03:50:27.287 # Bad message length or signature received from Cluster bus.
+26510:S 10 Feb 2021 03:58:42.254 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26510:S 12 Feb 2021 16:34:21.676 # Bad message length or signature received from Cluster bus.
+26510:S 12 Feb 2021 21:35:27.960 # Bad message length or signature received from Cluster bus.
+26510:S 14 Feb 2021 16:24:56.532 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26510:S 15 Feb 2021 19:48:52.086 # Bad message length or signature received from Cluster bus.
+26510:S 17 Feb 2021 15:51:56.190 # Bad message length or signature received from Cluster bus.
+26510:S 17 Feb 2021 16:10:46.060 # Bad message length or signature received from Cluster bus.
+26510:S 18 Feb 2021 16:38:48.256 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.

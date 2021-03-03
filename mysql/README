@@ -1,0 +1,19 @@
+1.创建mysql系统用户和组
+
+groupadd -g 27 mysql
+useradd -u 27 -g mysql mysql
+id mysql
+
+
+
+
+
+
+
+
+
+
+
+
+
+

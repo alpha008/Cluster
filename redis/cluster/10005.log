@@ -47,3 +47,484 @@
 6563:S 19 Dec 2020 00:15:22.981 * RDB age 0 seconds
 6563:S 19 Dec 2020 00:15:22.981 * RDB memory usage when created 2.52 Mb
 6563:S 19 Dec 2020 00:15:22.981 * MASTER <-> REPLICA sync: Finished with success
+6563:S 19 Dec 2020 05:21:01.188 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6563:S 22 Dec 2020 03:13:45.292 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6563:S 24 Dec 2020 01:52:35.984 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6563:S 25 Dec 2020 03:15:18.068 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:18.138 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:18.218 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:18.339 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:25.472 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:25.560 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:25.651 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:25.730 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:25.837 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:25.917 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.012 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.126 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.220 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.308 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.418 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.510 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.593 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.669 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.778 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.872 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:26.976 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:27.061 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:27.145 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:27.232 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:27.306 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:29.400 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:29.479 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:29.560 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:36.664 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:36.731 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:36.808 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:36.883 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:36.954 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:39.057 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:39.119 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:43.266 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:43.344 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:43.452 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:43.573 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:43.655 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:45.741 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:45.817 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:47.943 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:48.037 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:48.106 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:48.187 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:48.256 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:48.328 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:50.466 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:50.537 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:54.675 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:56.785 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:56.864 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:56.939 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:59.047 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:59.116 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:15:59.181 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:01.278 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:01.345 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:03.466 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:03.553 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:03.615 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:03.699 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:03.766 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:03.847 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:03.927 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.059 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.118 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.209 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.283 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.371 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.432 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.495 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.558 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.624 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.694 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.767 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.839 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.907 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:06.970 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:07.033 # Bad message length or signature received from Cluster bus.
+6563:S 25 Dec 2020 03:16:07.093 # Bad message length or signature received from Cluster bus.
+6563:S 26 Dec 2020 05:11:18.462 # Bad message length or signature received from Cluster bus.
+6563:S 27 Dec 2020 03:38:52.388 # Bad message length or signature received from Cluster bus.
+6563:S 29 Dec 2020 10:18:05.108 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6563:S 30 Dec 2020 16:05:39.178 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6563:S 02 Jan 2021 11:59:06.031 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+6563:signal-handler (1609687974) Received SIGTERM scheduling shutdown...
+6563:S 03 Jan 2021 23:32:54.081 # User requested shutdown...
+6563:S 03 Jan 2021 23:32:54.090 * Saving the final RDB snapshot before exiting.
+6563:S 03 Jan 2021 23:32:54.119 * DB saved on disk
+6563:S 03 Jan 2021 23:32:54.119 * Removing the pid file.
+6563:S 03 Jan 2021 23:32:54.119 # Redis is now ready to exit, bye bye...
+31993:C 21 Jan 2021 23:36:31.100 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31993:C 21 Jan 2021 23:36:31.101 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=31993, just started
+31993:C 21 Jan 2021 23:36:31.101 # Configuration loaded
+32001:M 21 Jan 2021 23:36:31.132 * Node configuration loaded, I'm 93308d0d2397869653c79737619faa166de515b5
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.3 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 10005
+ |    `-._   `._    /     _.-'    |     PID: 32001
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+32001:M 21 Jan 2021 23:36:31.133 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+32001:M 21 Jan 2021 23:36:31.133 # Server initialized
+32001:M 21 Jan 2021 23:36:31.133 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+32001:M 21 Jan 2021 23:36:31.134 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+32001:M 21 Jan 2021 23:36:31.134 * Loading RDB produced by version 6.0.3
+32001:M 21 Jan 2021 23:36:31.134 * RDB age 1555417 seconds
+32001:M 21 Jan 2021 23:36:31.134 * RDB memory usage when created 2.48 Mb
+32001:M 21 Jan 2021 23:36:31.134 * DB loaded from disk: 0.000 seconds
+32001:M 21 Jan 2021 23:36:31.134 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+32001:M 21 Jan 2021 23:36:31.134 * Ready to accept connections
+32001:S 21 Jan 2021 23:36:31.134 * Discarding previously cached master state.
+32001:S 21 Jan 2021 23:36:31.134 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+32001:S 21 Jan 2021 23:36:31.134 # Cluster state changed: ok
+32001:S 21 Jan 2021 23:36:32.136 * Connecting to MASTER 172.16.0.17:10001
+32001:S 21 Jan 2021 23:36:32.136 * MASTER <-> REPLICA sync started
+32001:S 21 Jan 2021 23:36:32.136 * Non blocking connect for SYNC fired the event.
+32001:S 21 Jan 2021 23:36:32.136 * Master replied to PING, replication can continue...
+32001:S 21 Jan 2021 23:36:32.136 * Trying a partial resynchronization (request 722450678416e2bd3b88c35e98a7a73a0f4bc301:1928193).
+32001:S 21 Jan 2021 23:36:32.137 * Full resync from master: 490bf5d806f9e7a649de27e42edd93804a707905:0
+32001:S 21 Jan 2021 23:36:32.137 * Discarding previously cached master state.
+32001:S 21 Jan 2021 23:36:32.223 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+32001:S 21 Jan 2021 23:36:32.223 * MASTER <-> REPLICA sync: Flushing old data
+32001:S 21 Jan 2021 23:36:32.223 * MASTER <-> REPLICA sync: Loading DB in memory
+32001:S 21 Jan 2021 23:36:32.223 * Loading RDB produced by version 6.0.3
+32001:S 21 Jan 2021 23:36:32.223 * RDB age 0 seconds
+32001:S 21 Jan 2021 23:36:32.223 * RDB memory usage when created 2.52 Mb
+32001:S 21 Jan 2021 23:36:32.223 * MASTER <-> REPLICA sync: Finished with success
+32001:S 23 Jan 2021 16:44:45.947 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+32001:S 23 Jan 2021 17:51:24.553 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:24.624 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:24.698 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:26.812 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:26.888 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:33.990 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.056 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.128 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.197 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.269 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.344 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.417 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.490 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.562 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.621 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.691 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.766 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.848 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.913 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:34.973 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:35.038 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:35.105 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:35.182 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:35.261 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:35.338 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:37.441 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:37.507 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:37.568 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:44.667 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:44.740 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:44.813 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:44.889 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:44.964 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:47.073 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:47.141 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:51.302 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:51.378 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:51.453 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:51.525 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:51.604 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:53.730 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:53.808 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:55.915 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:55.991 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:56.061 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:56.135 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:56.211 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:56.281 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:58.386 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:51:58.456 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:02.596 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:04.703 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:04.772 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:04.837 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:06.947 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:07.022 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:07.100 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:09.206 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:09.275 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:11.383 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:11.460 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:11.524 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:11.598 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:11.660 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:11.726 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:13.832 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:13.902 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:13.968 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.031 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.096 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.163 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.230 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.307 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.379 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.454 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.534 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.603 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.674 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.742 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.808 # Bad message length or signature received from Cluster bus.
+32001:S 23 Jan 2021 17:52:14.885 # Bad message length or signature received from Cluster bus.
+32001:S 25 Jan 2021 00:10:00.272 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+32001:signal-handler (1611721389) Received SIGTERM scheduling shutdown...
+32001:S 27 Jan 2021 12:23:09.347 # User requested shutdown...
+32001:S 27 Jan 2021 12:23:09.349 * Saving the final RDB snapshot before exiting.
+32001:S 27 Jan 2021 12:23:09.399 * DB saved on disk
+32001:S 27 Jan 2021 12:23:09.399 * Removing the pid file.
+32001:S 27 Jan 2021 12:23:09.399 # Redis is now ready to exit, bye bye...
+26504:C 27 Jan 2021 22:10:42.389 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26504:C 27 Jan 2021 22:10:42.391 # Redis version=6.0.3, bits=64, commit=00000000, modified=0, pid=26504, just started
+26504:C 27 Jan 2021 22:10:42.391 # Configuration loaded
+26525:M 27 Jan 2021 22:10:42.395 * Node configuration loaded, I'm 93308d0d2397869653c79737619faa166de515b5
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.3 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 10005
+ |    `-._   `._    /     _.-'    |     PID: 26525
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+26525:M 27 Jan 2021 22:10:42.396 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+26525:M 27 Jan 2021 22:10:42.396 # Server initialized
+26525:M 27 Jan 2021 22:10:42.396 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+26525:M 27 Jan 2021 22:10:42.396 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+26525:M 27 Jan 2021 22:10:42.396 * Loading RDB produced by version 6.0.3
+26525:M 27 Jan 2021 22:10:42.396 * RDB age 35253 seconds
+26525:M 27 Jan 2021 22:10:42.396 * RDB memory usage when created 2.48 Mb
+26525:M 27 Jan 2021 22:10:42.396 * DB loaded from disk: 0.000 seconds
+26525:M 27 Jan 2021 22:10:42.396 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+26525:M 27 Jan 2021 22:10:42.396 * Ready to accept connections
+26525:S 27 Jan 2021 22:10:42.396 * Discarding previously cached master state.
+26525:S 27 Jan 2021 22:10:42.396 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+26525:S 27 Jan 2021 22:10:42.396 # Cluster state changed: ok
+26525:S 27 Jan 2021 22:10:43.397 * Connecting to MASTER 172.16.0.17:10001
+26525:S 27 Jan 2021 22:10:43.397 * MASTER <-> REPLICA sync started
+26525:S 27 Jan 2021 22:10:43.397 * Non blocking connect for SYNC fired the event.
+26525:S 27 Jan 2021 22:10:43.398 * Master replied to PING, replication can continue...
+26525:S 27 Jan 2021 22:10:43.398 * Trying a partial resynchronization (request 42e4a68be7cb03cd18c54a55f0d78a18df46aeeb:667941).
+26525:S 27 Jan 2021 22:10:43.398 * Full resync from master: a6f26df1f67a75cf9f5589d334902de17f01292b:0
+26525:S 27 Jan 2021 22:10:43.398 * Discarding previously cached master state.
+26525:S 27 Jan 2021 22:10:43.525 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+26525:S 27 Jan 2021 22:10:43.525 * MASTER <-> REPLICA sync: Flushing old data
+26525:S 27 Jan 2021 22:10:43.525 * MASTER <-> REPLICA sync: Loading DB in memory
+26525:S 27 Jan 2021 22:10:43.525 * Loading RDB produced by version 6.0.3
+26525:S 27 Jan 2021 22:10:43.525 * RDB age 0 seconds
+26525:S 27 Jan 2021 22:10:43.525 * RDB memory usage when created 2.52 Mb
+26525:S 27 Jan 2021 22:10:43.525 * MASTER <-> REPLICA sync: Finished with success
+26525:S 28 Jan 2021 22:50:50.879 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 29 Jan 2021 20:19:55.266 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 30 Jan 2021 08:35:04.210 # Bad message length or signature received from Cluster bus.
+26525:S 31 Jan 2021 05:37:23.313 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 31 Jan 2021 09:10:15.003 # Bad message length or signature received from Cluster bus.
+26525:S 31 Jan 2021 09:17:10.170 # Bad message length or signature received from Cluster bus.
+26525:S 02 Feb 2021 10:01:55.480 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 03 Feb 2021 03:01:51.271 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:01:51.349 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:01:51.430 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:01:53.535 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:01:53.600 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:00.703 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:00.771 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:00.841 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:00.907 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:00.981 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.049 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.125 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.203 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.275 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.351 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.414 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.489 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.561 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.639 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.712 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.785 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.853 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.922 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:01.992 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:02.062 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:04.175 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:04.248 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:04.309 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:11.416 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:11.478 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:11.543 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:11.612 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:11.678 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:13.782 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:13.846 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:17.990 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:18.062 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:18.141 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:18.214 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:18.283 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:20.390 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:20.459 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:22.572 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:22.645 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:22.715 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:22.788 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:22.858 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:22.923 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:25.022 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:25.097 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:29.230 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:31.353 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:31.418 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:31.487 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:33.591 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:33.666 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:33.737 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:35.853 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:35.922 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:38.027 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:38.095 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:38.165 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:38.235 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:38.300 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:38.366 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:40.472 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:40.546 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:40.619 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:40.697 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:40.771 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:40.842 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:40.912 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:40.985 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:41.053 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:41.128 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:41.207 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:41.279 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:41.353 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:41.415 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:41.488 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 03:02:41.565 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 07:02:37.094 # Bad message length or signature received from Cluster bus.
+26525:S 03 Feb 2021 10:00:30.708 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 03 Feb 2021 14:03:33.734 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 03 Feb 2021 17:25:49.854 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 04 Feb 2021 05:27:17.510 # Bad message length or signature received from Cluster bus.
+26525:S 04 Feb 2021 12:20:49.135 # Bad message length or signature received from Cluster bus.
+26525:S 05 Feb 2021 07:21:37.266 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 06 Feb 2021 05:11:55.491 # Bad message length or signature received from Cluster bus.
+26525:S 08 Feb 2021 03:01:22.021 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 09 Feb 2021 10:44:53.811 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 09 Feb 2021 16:47:07.227 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 09 Feb 2021 21:30:04.551 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 10 Feb 2021 10:46:55.163 # Bad message length or signature received from Cluster bus.
+26525:S 10 Feb 2021 19:37:11.607 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 11 Feb 2021 03:29:31.083 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 11 Feb 2021 04:43:00.627 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:00.700 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:00.779 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:02.897 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:02.963 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.057 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.130 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.200 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.270 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.344 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.402 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.471 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.546 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.615 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.681 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.747 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.815 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.887 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:10.957 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:11.018 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:11.089 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:11.165 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:11.237 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:11.302 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:11.372 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:13.479 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:13.553 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:13.619 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:20.731 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:20.796 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:20.866 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:20.934 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:21.005 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:23.113 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:23.187 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:27.342 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:27.409 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:27.481 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:27.554 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:27.622 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:29.729 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:29.811 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:31.921 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:31.996 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:32.063 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:32.122 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:32.191 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:32.269 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:34.395 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:34.464 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:38.613 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:40.731 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:40.804 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:40.880 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:43.002 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:43.078 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:43.154 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:45.258 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:45.330 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:47.436 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:47.507 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:47.576 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:47.639 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:47.707 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:47.780 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:49.888 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:49.966 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.048 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.128 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.210 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.283 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.364 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.443 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.517 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.589 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.657 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.729 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.796 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.867 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:50.940 # Bad message length or signature received from Cluster bus.
+26525:S 11 Feb 2021 04:43:51.013 # Bad message length or signature received from Cluster bus.
+26525:S 12 Feb 2021 14:38:20.245 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 13 Feb 2021 00:31:06.485 # Bad message length or signature received from Cluster bus.
+26525:S 13 Feb 2021 14:16:08.715 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 13 Feb 2021 23:52:05.602 # Bad message length or signature received from Cluster bus.
+26525:S 14 Feb 2021 21:32:38.503 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 15 Feb 2021 02:26:46.551 # Bad message length or signature received from Cluster bus.
+26525:S 16 Feb 2021 11:39:25.061 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 16 Feb 2021 12:59:09.152 # Bad message length or signature received from Cluster bus.
+26525:S 17 Feb 2021 04:16:04.996 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 17 Feb 2021 06:09:17.427 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 18 Feb 2021 03:12:02.013 # Bad message length or signature received from Cluster bus.
+26525:S 18 Feb 2021 06:31:21.243 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+26525:S 18 Feb 2021 06:32:24.370 # Bad message length or signature received from Cluster bus.
+26525:S 18 Feb 2021 09:30:26.953 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.

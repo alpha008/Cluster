@@ -4,17 +4,17 @@ echo "current executed path is : ${execpath}"
 #1.查看状态
 netstat -ano | grep mysql
 #2.创建目录
-sudo mkdir -p /data/mysql/mysql_3307/log
-sudo mkdir -p /data/mysql/mysql_3307/tmp
-sudo mkdir -p /data/mysql/mysql_3308/data
-sudo mkdir -p /data/mysql/mysql_3308/log
-sudo mkdir -p /data/mysql/mysql_3308/tmp
+sudo mkdir -p ${execpath}/conf/mysql_3306/log
+sudo mkdir -p ${execpath}/conf/mysql_3306/tmp
+sudo mkdir -p ${execpath}/conf/mysql_3306/data
+sudo mkdir -p ${execpath}/conf/mysql_3307/log
+sudo mkdir -p ${execpath}/conf/mysql_3307/tmp
+sudo mkdir -p ${execpath}/conf/mysql_3307/data
 #3.更改目录权限
 #任意目录下，输入
 
 #4.添加环境变量
 sudo sed -i '$a\export PATH=$PATH:/usr/local/mysql/bin'  /etc/profile
-
 source /etc/profile
 #5.复制my.cnf文件到etc目录
 cp /etc/mysql/mysql.conf.d/mysqld.cnf /etc/my.cnf

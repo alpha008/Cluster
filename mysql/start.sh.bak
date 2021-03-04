@@ -4,27 +4,20 @@ echo "current executed path is : ${execpath}"
 #1.查看状态
 netstat -ano | grep mysql
 #2.创建目录
-mkdir -p /data/mysql/mysql_3306/data
-mkdir -p /data/mysql/mysql_3306/log
-mkdir -p /data/mysql/mysql_3306/tmp
-mkdir -p /data/mysql/mysql_3307/data
-mkdir -p /data/mysql/mysql_3307/log
-mkdir -p /data/mysql/mysql_3307/tmp
-mkdir -p /data/mysql/mysql_3308/data
-mkdir -p /data/mysql/mysql_3308/log
-mkdir -p /data/mysql/mysql_3308/tmp
-
+sudo mkdir -p /data/mysql/mysql_3307/log
+sudo mkdir -p /data/mysql/mysql_3307/tmp
+sudo mkdir -p /data/mysql/mysql_3308/data
+sudo mkdir -p /data/mysql/mysql_3308/log
+sudo mkdir -p /data/mysql/mysql_3308/tmp
 #3.更改目录权限
 #任意目录下，输入
 
-chown -R mysql:mysql /data/mysql/ 
-chown -R mysql:mysql /usr/local/mysql/
 #4.添加环境变量
 sudo sed -i '$a\export PATH=$PATH:/usr/local/mysql/bin'  /etc/profile
 
 source /etc/profile
 #5.复制my.cnf文件到etc目录
-cp /usr/local/mysql/support-files/my-default.cnf /etc/my.cnf
+cp /etc/mysql/mysql.conf.d/mysqld.cnf /etc/my.cnf
 
 #6.修改my.cnf（在一个文件中修改即可）
 #3306数据库
@@ -73,6 +66,7 @@ slow_query_log_file = /data/mysql/mysql_3308/log/slow.log
 log-error = /data/mysql/mysql_3308/log/error.log
 binlog_format = mixed
 log-bin = /data/mysql/mysql_3308/log/mysql3308_bin
+
 
 
 #初始化数据库

@@ -1,0 +1,9 @@
+masterIp=
+masterSqlname=
+masterSqlpass=
+slaveName=slavename
+slavePass=slavepass
+slaveIp=
+slaveSqlname=
+slaveSqlpass=
+port=3306

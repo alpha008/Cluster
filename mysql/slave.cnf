@@ -28,12 +28,12 @@ nice		= 0
 # * Basic Settings
 #
 user		= mysql
-pid-file	= /var/run/mysqld/mysqld.pid
-socket		= /var/run/mysqld/mysqld.sock
-port		= 3306
+pid-file	= /var/run/mysqld/mysqld1.pid
+socket		= /var/run/mysqld/mysqld1.sock
+port		= 3307
 basedir		= /usr
 datadir		= /var/lib/mysql
-tmpdir		= /tmp
+tmpdir		= /tmp1
 lc-messages-dir	= /usr/share/mysql
 skip-external-locking
 #skip-grant-tables
@@ -42,6 +42,9 @@ skip-external-locking
 # localhost which is more compatible and is not less secure.
 #bind-address		= 127.0.0.1
 bind-address		= 0.0.0.0 
+server-id		= 100
+#log_bin			= /var/log/mysql/mysql-bin.log
+
 #
 # * Fine Tuning
 #
@@ -82,8 +85,9 @@ log_error = /var/log/mysql/error.log
 # The following can be used as easy to replay backup logs or for replication.
 # note: if you are setting up a replication slave, see README.Debian about
 #       other settings you may need to change.
-#server-id		= 1
-#log_bin			= /var/log/mysql/mysql-bin.log
+
+
+
 expire_logs_days	= 10
 max_binlog_size   = 100M
 #binlog_do_db		= include_database_name

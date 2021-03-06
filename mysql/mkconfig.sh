@@ -1,131 +1,195 @@
 #/bin/sh
 execpath=$(cd "$(dirname "$0")"; pwd)
 echo "current executed path is : ${execpath}"
-#source /home/alpha/shelltest/config.ini 直接导配置文件可能会方便一点 这里我就不改了
-#!/bin/bash
-#source /home/alpha/shelltest/config.ini 直接导配置文件可能会方便一点 这里我就不改了
-cat $1 | while read line
-do
-      #master side
-      masterIp=$(echo $line |awk '{print $1}') #master ip地址
-      masterSqlname=$(echo $line |awk '{print $2}') #master数据库用户名
-      masterSqlpass=$(echo $line |awk '{print $3}') #master数据库密码
-      slaveName=$(echo $line |awk '{print $4}') #master授权给slave远程登录master数据库的用户名
-      slavePass=$(echo $line |awk '{print $5}') #slave 登录master时的密码
-      slaveIp=$(echo $line |awk '{print $6}') #slave ip地址
-      slaveSqlname=$(echo $line |awk '{print $7}') #slave 数据库用户名
-      slaveSqlpass=$(echo $line |awk '{print $8}') #slave 数据库密码
-      port=$(echo $line |awk '{print $9}') #端口号
+#1.查看状态
+ps -elf | grep mysql
+#2.创建目录
+if [ ! -d "${execpath}/conf/mysql_3306/run" ]; then
+    echo ''${execpath}/conf/mysql_3306/run' is not exist'
+    mkdir -p ${execpath}/conf/mysql_3306/run
+fi
+if [ ! -d "${execpath}/conf/mysql_3306/log" ]; then
+    echo ''${execpath}/conf/mysql_3306/log' is not exist'
+    mkdir -p ${execpath}/conf/mysql_3306/log
+fi
+if [ ! -d "${execpath}/conf/mysql_3306/tmp" ]; then
+    echo ''${execpath}/conf/mysql_3306/tmp' is not exist'
+    mkdir -p ${execpath}/conf/mysql_3306/tmp
+fi
+if [ ! -d "${execpath}/conf/mysql_3306/data" ]; then
+    echo ''${execpath}/conf/mysql_3306/data' is not exist'
+    mkdir -p ${execpath}/conf/mysql_3306/data
+fi
+if [ ! -d "${execpath}/conf/mysql_3307/run" ]; then
+    echo ''${execpath}/conf/mysql_3307/run' is not exist'
+    mkdir -p ${execpath}/conf/mysql_3307/run
+fi
+if [ ! -d "${execpath}/conf/mysql_3307/log" ]; then
+    echo ''${execpath}/conf/mysql_3307/log' is not exist'
+    mkdir -p ${execpath}/conf/mysql_3307/log
+fi
+if [ ! -d "${execpath}/conf/mysql_3307/tmp" ]; then
+    echo ''${execpath}/conf/mysql_3307/tmp' is not exist'
+    mkdir -p ${execpath}/conf/mysql_3307/tmp
+fi
+if [ ! -d "${execpath}/conf/mysql_3307/data" ]; then
+    echo ''${execpath}/conf/mysql_3307/data' is not exist'
+    mkdir -p ${execpath}/conf/mysql_3307/data
+fi
 
-      echo ${line}
-      echo
+#3.配置主
+#${file%%.*}：删掉第一个 . 及其右边的字符串：/dir1/dir2/dir3/my
+cp /etc/mysql/mysql.conf.d/mysqld.cnf ./master.cnf
+target=$(cat master.cnf | grep -n "log_error")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+target=${text%%=*}=${execpath}/conf/mysql_3306/log/3306.log
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} master.cnf"
+eval ${cmd}
 
-     #在数据库中给slave登录master数据库的权限
-      grantCmd="grant replication slave on*.*to '${slaveName}'@'${slaveIp}' identified by '${slavePass}';"
-      echo "grant cmd:" ${grantCmd}
+target=$(cat master.cnf | grep -n "datadir")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+target=${text%%=*}=${execpath}/conf/mysql_3306/data
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} master.cnf"
+eval ${cmd}
 
-    #在master的mysql数据库中执行grant操作
-      remoteCmd="mysql -h${masterIp} -u${masterSqlname} -p${masterSqlpass} -e \"${grantCmd}\""
-      echo "remote cmd:" ${remoteCmd}
+target=$(cat master.cnf | grep -n "mysqld.sock")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+target=${text%%=*}=${execpath}/conf/mysql_3306/tmp/mysql_3306.sock
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} master.cnf"
+eval ${cmd}
 
-      mysql -h${masterIp} -u${masterSqlname} -p${masterSqlpass} -e "${grantCmd}"
+target=$(cat master.cnf | grep -n "mysqld.sock")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+target=${text%%=*}=${execpath}/conf/mysql_3306/tmp/mysql_3306.sock
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} master.cnf"
+eval ${cmd}
 
-      if [ $? -eq 0 ]; then
-          echo "exec: <grant replication slave...> success"
-      else
-          echo "exec: <grant replication slave...> failure"
-          fi
-      echo
+target=$(cat master.cnf | grep -n "slow_query_log_file")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+temp=${text#*#}
+target=${temp%%=*}=${execpath}/conf/mysql_3306/log/slow.log
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} master.cnf"
+eval ${cmd}
 
-     #查看master状态
-      statusCmd="mysql -h${masterIp} -u${masterSqlname} -p${masterSqlpass} -e \"show master status;\""
-      echo "status cmd:" ${statusCmd}
-      mysql -h${masterIp} -u${masterSqlname} -p${masterSqlpass} -e "show master status;"
-      if [ $? -eq 0 ]; then
-          echo "exec: <show master status> success"
-      else
-          echo "exec: <show master status> failure"
-      fi
-      echo
+target=$(cat master.cnf | grep -n "pid-file")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+temp=${text#*#}
+target=${temp%%=*}=${execpath}/conf/mysql_3306/run/mysqld.pid
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} master.cnf"
+eval ${cmd}
 
-     #查看master状态 获取file 以及position的信息
-      bininfo=$(mysql -h${masterIp} -u${masterSqlname} -p${masterSqlpass} -e "show master status;")
-      file=$(echo $bininfo | awk '{print $5}')
-      pos=$(echo $bininfo | awk '{print $6}')
-
-      echo "bininfo:" $bininfo
-      echo "file name:" $file
-      echo "position:" $pos
-
-     #查看master中mysql的登录账户信息
-      queryCmd="mysql -h${masterIp} -u${masterSqlname} -p${masterSqlpass} -e \"select Host, User, Password from mysql.user;\""
-      echo "query cmd:" ${queryCmd}
-      mysql -h${masterIp} -u${masterSqlname} -p${masterSqlpass} -e "select Host, User, Password from mysql.user;"
-      if [ $? -eq 0 ]; then
-          echo "exec: <select *from mysql.user> success"
-      else
-          echo "exec: <select *from mysql.user> failure"
-      fi
-
-      #slave side
-      #首先确保slave中的mysql 停止slave 
-      startCmd="mysql -h${slaveIp} -u${slaveSqlname} -p${slaveSqlpass} -e \"slave stop;\""
-      echo "start cmd:"${startCmd}
-      mysql -h${slaveIp} -u${slaveSqlname} -p${slaveSqlpass} -e "slave stop;"
-      if [ $? -eq 0 ]; then
-          echo "exec: <slave stop> success"
-          echo
-      else
-          echo "exec: <slave stop> failure"
-          echo
-      fi
-
-     #change master
-      changeCmd="change master to MASTER_HOST='${masterIp}',MASTER_PORT=${port},MASTER_USER='${slaveName}',MASTER_PASSWORD='${slavePass}',MASTER_LOG_FILE='${file}',MASTER_LOG_POS=${pos};"
-      echo "change cmd:" ${changeCmd}
-
-    #登录slave的mysql进行 change操作
-      remoteCmd="mysql -h${slaveIp} -u${slaveSqlname} -p${slaveSqlpass} -e \"${changeCmd}\""
-      echo "remote cmd:" ${remoteCmd}
-      mysql -h${slaveIp} -u${slaveSqlname} -p${slaveSqlpass} -e "${changeCmd}"
-      if [ $? -eq 0 ]; then
-        echo "exec: <change master...> success"
-        echo
-      else
-          echo "exec: <change master...> failure"
-          echo
-      fi
-      echo
-
-     #启动slave
-      startcmd="mysql -h${slaveIp} -u${slaveSqlname} -p${slaveSqlpass} -e \"slave start;\""
-      echo "start cmd:" ${startcmd}
-      mysql -h${slaveIp} -u${slaveSqlname} -p${slaveSqlpass} -e "slave start;"
-      if [ $? -eq 0 ]; then
-          echo "exec: <slave start> success"
-          echo
-      else
-          echo "exec: <slave start> failure"
-          echo
-      fi
-
-     #查看slave状态
-      statusCmd="mysql -h${slaveIp} -u${slaveSqlname} -p${slaveSqlpass} -e \"show slave status\G\""
-      echo "status cmd:" ${statusCmd}
-      mysql -h${slaveIp} -u${slaveSqlname} -p${slaveSqlpass} -e "show slave status\G"
-      if [ $? -eq 0 ]; then
-          echo "exec: <show slave status> success"
-          echo
-      else
-          echo "exec: <show slave status> failure"
-          echo
-      fi
-
-done
+target=$(cat master.cnf | grep -n "tmpdir")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+temp=${text#*#}
+target=${temp%%=*}=${execpath}/conf/mysql_3306/tmp
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} master.cnf"
+eval ${cmd}
 
 
 
+sed -i 's/^user.*/user=root/g' master.cnf
 
+sed -i '/slow_query_log/a\bind-address=0.0.0.0' master.cnf
+sed -i 's/\[mysqld\]$/[mysqld3306]/g' master.cnf
+sed -i 's/^port.*/port=3306/g' master.cnf
+sed -i '/address/d' master.cnf
+sed -i '/localhost/a\bind-address=0.0.0.0' master.cnf
 
+sed -i '/server-id/d' master.cnf
+sed -i '/expire_logs_days/a\server-id=3306' master.cnf
+
+#4.配置备
+
+cp /etc/mysql/mysql.conf.d/mysqld.cnf ./slave.cnf
+target=$(cat slave.cnf | grep -n "log_error")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+target=${text%%=*}=${execpath}/conf/mysql_3307/log/3307.log
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} slave.cnf"
+eval ${cmd}
+
+target=$(cat slave.cnf | grep -n "datadir")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+target=${text%%=*}=${execpath}/conf/mysql_3307/data
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} slave.cnf"
+eval ${cmd}
+
+target=$(cat slave.cnf | grep -n "mysqld.sock")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+target=${text%%=*}=${execpath}/conf/mysql_3307/tmp/mysql_3306.sock
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} slave.cnf"
+eval ${cmd}
+
+target=$(cat slave.cnf | grep -n "mysqld.sock")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+target=${text%%=*}=${execpath}/conf/mysql_3307/tmp/mysql_3306.sock
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} slave.cnf"
+eval ${cmd}
+
+target=$(cat slave.cnf | grep -n "slow_query_log_file")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+temp=${text#*#}
+target=${temp%%=*}=${execpath}/conf/mysql_3307/log/slow.log
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} slave.cnf"
+eval ${cmd}
+
+target=$(cat slave.cnf | grep -n "pid-file")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+temp=${text#*#}
+target=${temp%%=*}=${execpath}/conf/mysql_3307/run/mysqld.pid
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} slave.cnf"
+eval ${cmd}
+
+target=$(cat slave.cnf | grep -n "tmpdir")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+temp=${text#*#}
+target=${temp%%=*}=${execpath}/conf/mysql_3307/tmp
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} slave.cnf"
+eval ${cmd}
+
+target=$(cat slave.cnf | grep -n "user")
+line=$(echo $target | awk -F ":" '{print $1}')
+text=$(echo $target | awk -F ":" '{print $2}')
+target=${text%%=*}=root
+h="'";
+cmd="sed -i ${h}${line}c ${target}${h} slave.cnf"
+eval ${cmd}
+
+sed -i 's/^user.*/user=root/g' master.cnf
+sed -i '/slow_query_log/a\bind-address=0.0.0.0' slave.cnf
+sed -i 's/\[mysqld\]$/[mysqld3307]/g' slave.cnf
+sed -i 's/^port.*/port=3307/g' slave.cnf
+sed -i '/address/d' slave.cnf
+sed -i '/localhost/a\bind-address=0.0.0.0' slave.cnf
+
+sed -i '/server-id/d' slave.cnf
+sed -i '/expire_logs_days/a\server-id=3307' slave.cnf
 
 

@@ -50,6 +50,6 @@ if [ ! -d "/usr/local/mysql" ]; then
 fi
 cd ${execpath}
 /usr/local/mysql/mysql-5.7.17-linux-glibc2.5-x86_64/bin/mysqld --initialize --user=mysql --basedir=/usr/local/mysql --datadir=${execpath}/mysql
-
+/usr/local/mysql/bin/mysqld --initialize --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql
 
 

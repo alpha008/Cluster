@@ -1,14 +1,69 @@
-1.创建mysql系统用户和组
+ # 下面几个文件有错误导致install失败
+ 
+ 3304  2021-03-07 01:09:22 sudo vi /home/ubuntu/Cluster/mysql/mysql-5.6.45/mysql-5.6.45/include/mysql_version.h +19
+ 3305  2021-03-07 01:10:05 sudo vi /home/ubuntu/Cluster/mysql/mysql-5.6.45/mysql-5.6.45/include/mysql_version.h +19
+ 3306  2021-03-07 01:10:43 sudo vi /home/ubuntu/Cluster/mysql/mysql-5.6.45/mysql-5.6.45/include/mysql_version.h +19
+ 3307  2021-03-07 01:11:36 sudo vi /home/ubuntu/Cluster/mysql/mysql-5.6.45/mysql-5.6.45/include/mysql_version.h +19
 
-groupadd -g 27 mysql
-useradd -u 27 -g mysql mysql
-id mysql
+PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !
+To do so, start the server, then issue the following commands:
+
+  /usr/local/mysql/bin/mysqladmin -u root password 'new-password'
+  /usr/local/mysql/bin/mysqladmin -u root -h 127.0.0.1 password 'new-password'
+
+Alternatively you can run:
+
+  /usr/local/mysql/bin/mysql_secure_installation
+
+which will also give you the option of removing the test
+databases and anonymous user created by default.  This is
+strongly recommended for production servers.
+
+See the manual for more instructions.
+
+You can start the MySQL daemon with:
+
+  cd . ; /usr/local/mysql/bin/mysqld_safe &
+
+You can test the MySQL daemon with mysql-test-run.pl
+
+  cd mysql-test ; perl mysql-test-run.pl
+
+Please report any problems at http://bugs.mysql.com/
+
+The latest information about MySQL is available on the web at
+
+  http://www.mysql.com
+
+Support MySQL by buying support/licenses at http://shop.mysql.com
+
+New default config file was created as /usr/local/mysql/my.cnf and
+will be used by default by the server when you start it.
+You may edit this file to change server settings
+
+WARNING: Default config file /etc/my.cnf exists on the system
+This file will be read by default by the MySQL server
+If you do not want to use this, either remove it, or use the
+--defaults-file argument to mysqld_safe when starting the server
 
 
 
 
-
-
+[Unit]
+Description=MySQL
+After=network.target
+ 
+[Service]
+User=mysql
+Group=mysql
+LimitNOFILE=65535
+ 
+Type=forking
+ExecStart=/usr/local/mysql/bin/mysql.sh start
+ExecStop=/usr/local/mysql/bin/mysql.sh stop
+ 
+[Install]
+WantedBy=multi-user.target
 
 
 
